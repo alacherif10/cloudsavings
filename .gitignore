@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Streamlit / local state
+.streamlit/secrets.toml
+.streamlit/*.db
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment / secrets — NEVER commit these
+.env
+.env.*
+*.pem
+*.key
+credentials
+secrets.toml
+
+# Customer / real data — never commit
+data/real/
+data/customer_*/
+!data/demo_costs.csv
+
+# Editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
