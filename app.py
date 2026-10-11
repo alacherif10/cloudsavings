@@ -19,6 +19,7 @@ Design rules:
     - No network calls, no AWS, no paid services.
     - Synthetic data is clearly labelled at the top of every page.
     - Uploaded files are never written to disk.
+    - Estimated savings and verified savings are never conflated.
 """
 from __future__ import annotations
 
@@ -36,6 +37,7 @@ from src.cost_analysis import (
     summary_stats,
 )
 from src.csv_import import ImportResult, import_csv_from_bytes, preview_rows
+from src.recommendations import Recommendation, generate_recommendations
 
 # ---- Configuration --------------------------------------------------------
 
@@ -52,17 +54,30 @@ SAMPLE_DATA_PATH = PROJECT_ROOT / "data" / "sample_costs.csv"
 
 MAX_ERRORS_DISPLAYED = 100
 MAX_PREVIEW_ROWS = 20
+MAX_RECOMMENDATIONS_DISPLAYED = 20
+
+# Confidence badge colours (Streamlit uses markdown colour syntax).
+_CONFIDENCE_BADGE = {
+    "low":    "🟡 low",
+    "medium": "🟠 medium",
+    "high":   "🟢 high",
+}
+
+# Human-readable label per recommendation category.
+_CATEGORY_LABEL = {
+    "spend_increase":  "Spend increase",
+    "step_change":     "Step change",
+    "concentration":   "Concentration",
+    "daily_outlier":   "Daily outlier",
+    "storage_review":  "Storage review",
+}
 
 
 # ---- Demo data (cached) ---------------------------------------------------
 
 @st.cache_data(show_spinner="Loading demo data...")
 def _load_demo_data() -> pd.DataFrame:
-    """Read the bundled synthetic demo CSV through our own pipeline.
-
-    Reusing the exact same code path as a real upload means that what
-    we see in the demo is what a user would see with a real file.
-    """
+    """Read the bundled synthetic demo CSV through our own pipeline."""
     data = DEMO_DATA_PATH.read_bytes()
     result = import_csv_from_bytes(data, "demo_costs.csv")
     if not result.is_success or result.df is None:
@@ -73,15 +88,20 @@ def _load_demo_data() -> pd.DataFrame:
     return result.df
 
 
+@st.cache_data(show_spinner=False)
+def _cached_recommendations(df: pd.DataFrame) -> tuple[Recommendation, ...]:
+    """Cache the recommendation list so we do not recompute on every rerun.
+
+    Streamlit's cache hashes the DataFrame; the result is a tuple because
+    cached values must be hashable in some Streamlit versions, and tuples
+    are safe. Callers convert back to list.
+    """
+    return tuple(generate_recommendations(df))
+
+
 # ---- Session state --------------------------------------------------------
 
 def _init_session_state() -> None:
-    """Initialise keys we use to track the active data source.
-
-    `active_name` is the filename of the confirmed upload, or None when
-    the dashboard is showing demo data. `uploader_key` is a counter we
-    bump to force Streamlit to reset the file uploader widget.
-    """
     if "active_name" not in st.session_state:
         st.session_state.active_name = None
     if "uploader_key" not in st.session_state:
@@ -91,11 +111,6 @@ def _init_session_state() -> None:
 # ---- Sidebar --------------------------------------------------------------
 
 def _render_sidebar_upload() -> tuple[bytes | None, str | None]:
-    """Render the file uploader and reset button in the sidebar.
-
-    Returns (bytes, filename) if a file is currently selected,
-    otherwise (None, None).
-    """
     with st.sidebar:
         st.header("Data source")
         st.caption("Demo dataset is loaded by default.")
@@ -152,7 +167,7 @@ def _render_sidebar_info(stats: dict[str, object], source_name: str) -> None:
         st.markdown(
             "- ✅ Cost dashboard\n"
             "- ✅ CSV upload\n"
-            "- ⬜ Recommendations\n"
+            "- ✅ Recommendations\n"
             "- ⬜ Savings measurement\n"
             "- ⬜ RaaS fee simulator\n"
             "- ⬜ PDF/CSV reports"
@@ -209,12 +224,7 @@ def _render_import_errors(result: ImportResult, filename: str) -> None:
 
     shown = errors[:MAX_ERRORS_DISPLAYED]
     rows = [
-        {
-            "Row": e.row,
-            "Column": e.column,
-            "Message": e.message,
-            "Value": e.value,
-        }
+        {"Row": e.row, "Column": e.column, "Message": e.message, "Value": e.value}
         for e in shown
     ]
     st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
@@ -225,9 +235,7 @@ def _render_import_errors(result: ImportResult, filename: str) -> None:
             f"errors. Fix these and re-upload to see the rest."
         )
 
-    st.info(
-        "Download a valid sample from the sidebar to compare formats."
-    )
+    st.info("Download a valid sample from the sidebar to compare formats.")
 
 
 def _render_upload_preview(result: ImportResult, filename: str) -> None:
@@ -253,8 +261,6 @@ def _render_upload_preview(result: ImportResult, filename: str) -> None:
             f"${mean_monthly:,.2f}" if mean_monthly is not None else "—",
         )
     except ValueError:
-        # Non-standard file that passed validation but has no dates to
-        # summarise — rare, but we don't want to break the preview.
         pass
 
     st.markdown(f"**First {MAX_PREVIEW_ROWS} rows:**")
@@ -295,11 +301,8 @@ def _render_header() -> None:
 def _render_kpi_row(stats: dict[str, object]) -> None:
     col1, col2, col3, col4 = st.columns(4)
 
-    col1.metric(
-        "Total cost",
-        f"${stats['total_cost']:,.2f}",
-        help="Sum of unblended_cost across all rows.",
-    )
+    col1.metric("Total cost", f"${stats['total_cost']:,.2f}",
+                help="Sum of unblended_cost across all rows.")
 
     mean_monthly = stats["mean_monthly_cost"]
     col2.metric(
@@ -310,16 +313,39 @@ def _render_kpi_row(stats: dict[str, object]) -> None:
 
     period_start = stats["period_start"]
     period_end = stats["period_end"]
-    if period_start and period_end:
-        period_display = f"{period_start} → {period_end}"
-    else:
-        period_display = "—"
+    period_display = (
+        f"{period_start} → {period_end}" if period_start and period_end else "—"
+    )
     col3.metric("Period covered", period_display, help="Inclusive date range.")
 
-    col4.metric(
-        "Services",
-        f"{stats['num_services']}",
-        help="Distinct AWS services found in the dataset.",
+    col4.metric("Services", f"{stats['num_services']}",
+                help="Distinct AWS services found in the dataset.")
+
+
+def _render_recommendations_kpi(recommendations: list[Recommendation]) -> None:
+    """Fifth KPI row: total estimated monthly savings from recommendations."""
+    total = sum(r.estimated_monthly_savings_usd for r in recommendations)
+    count = len(recommendations)
+    with_positive = sum(
+        1 for r in recommendations if r.estimated_monthly_savings_usd > 0
+    )
+
+    c1, c2, c3 = st.columns(3)
+    c1.metric(
+        "Potential monthly savings",
+        f"${total:,.2f}",
+        help="Sum of estimated monthly savings across all recommendations. "
+             "These are ESTIMATES, not verified savings.",
+    )
+    c2.metric(
+        "Recommendations",
+        f"{count}",
+        help="Total number of recommendations produced by the engine.",
+    )
+    c3.metric(
+        "With estimated savings",
+        f"{with_positive}",
+        help="Recommendations that carry a non-zero estimated saving.",
     )
 
 
@@ -371,19 +397,10 @@ def _render_service_breakdown(df: pd.DataFrame) -> None:
     left, right = st.columns([1, 1])
 
     with left:
-        fig = px.pie(
-            breakdown,
-            names="service",
-            values="total_cost",
-            hole=0.45,
-        )
-        fig.update_traces(
-            textposition="outside",
-            textinfo="percent+label",
-        )
+        fig = px.pie(breakdown, names="service", values="total_cost", hole=0.45)
+        fig.update_traces(textposition="outside", textinfo="percent+label")
         fig.update_layout(
-            showlegend=False,
-            height=380,
+            showlegend=False, height=380,
             margin=dict(l=10, r=10, t=20, b=10),
         )
         st.plotly_chart(fig, use_container_width=True)
@@ -429,6 +446,99 @@ def _render_mom_table(df: pd.DataFrame) -> None:
     st.dataframe(display, use_container_width=True, hide_index=True)
 
 
+# ---- Recommendations section ----------------------------------------------
+
+def _render_recommendations_banner() -> None:
+    st.info(
+        "These recommendations are **automated estimates** produced from "
+        "cost data alone. They are **not** verified savings, and they are "
+        "**not** proof that any resource is unused or wasted. Each one "
+        "lists the additional evidence required before any action is "
+        "taken. No cloud resource is ever modified automatically.",
+        icon="ℹ️",
+    )
+
+
+def _render_recommendation_card(rec: Recommendation, index: int) -> None:
+    """Render one recommendation as an expandable card."""
+    badge = _CONFIDENCE_BADGE.get(rec.confidence, rec.confidence)
+    category_label = _CATEGORY_LABEL.get(rec.category, rec.category)
+    saving = rec.estimated_monthly_savings_usd
+
+    header = (
+        f"**{index}. {rec.title}**  ·  `{category_label}`  ·  "
+        f"confidence: {badge}"
+    )
+    if saving > 0:
+        header += f"  ·  est. **${saving:,.2f}/month**"
+    else:
+        header += "  ·  no direct saving estimate"
+
+    with st.expander(header, expanded=(index <= 3)):
+        st.markdown(f"**Service:** `{rec.service}`")
+        st.markdown("**Why we are surfacing this:**")
+        st.markdown(rec.reason)
+
+        if saving > 0:
+            st.caption(
+                f"Estimated potential saving: **${saving:,.2f}/month**. "
+                f"This is an estimate — a ceiling, not a promise."
+            )
+
+        col_a, col_b = st.columns(2)
+
+        with col_a:
+            st.markdown("**Evidence required before acting**")
+            if rec.required_evidence:
+                for item in rec.required_evidence:
+                    st.markdown(f"- {item}")
+            else:
+                st.markdown("_None specified._")
+
+            st.markdown("**Risks / prerequisites**")
+            if rec.risks:
+                for item in rec.risks:
+                    st.markdown(f"- {item}")
+            else:
+                st.markdown("_None specified._")
+
+        with col_b:
+            st.markdown("**Suggested next action**")
+            if rec.next_action:
+                st.markdown(rec.next_action)
+            else:
+                st.markdown("_None specified._")
+
+            st.markdown("**Rule id**")
+            st.code(rec.id, language="text")
+
+
+def _render_recommendations(recommendations: list[Recommendation]) -> None:
+    st.subheader("Recommendations")
+
+    if not recommendations:
+        st.success(
+            "No recommendations were produced for this dataset. "
+            "That is not a guarantee that the account is optimal — "
+            "only that our current rules found nothing to flag.",
+            icon="✅",
+        )
+        return
+
+    _render_recommendations_banner()
+
+    if len(recommendations) > MAX_RECOMMENDATIONS_DISPLAYED:
+        st.caption(
+            f"Showing the first {MAX_RECOMMENDATIONS_DISPLAYED} of "
+            f"{len(recommendations)} recommendations."
+        )
+
+    for i, rec in enumerate(
+        recommendations[:MAX_RECOMMENDATIONS_DISPLAYED], start=1
+    ):
+        _render_recommendation_card(rec, i)
+
+
 def _render_footer() -> None:
     st.divider()
     st.caption(
@@ -443,14 +553,9 @@ def main() -> None:
     _init_session_state()
     _render_header()
 
-    # Sidebar: uploader (always rendered first so the widget is visible
-    # before we decide what to do with its content).
     file_bytes, filename = _render_sidebar_upload()
 
-    # Decide which dataset to use for the rest of the page.
     if file_bytes is None:
-        # No file selected → demo mode. Any previously confirmed upload
-        # is discarded so the demo is always the fallback.
         st.session_state.active_name = None
         df = _load_demo_data()
         source_name = "Demo dataset (synthetic)"
@@ -463,17 +568,14 @@ def main() -> None:
             st.stop()
 
         if st.session_state.active_name != filename:
-            # Fresh upload, not yet confirmed → show preview only.
             _render_upload_preview(result, filename)
             st.stop()
 
-        # Confirmed upload → use it.
         assert result.df is not None
         df = result.df
         source_name = filename
         is_synthetic = False
 
-    # Everything below is the dashboard proper.
     if is_synthetic:
         _render_synthetic_banner()
     else:
@@ -483,6 +585,10 @@ def main() -> None:
     _render_sidebar_info(stats, source_name)
 
     _render_kpi_row(stats)
+
+    recommendations = list(_cached_recommendations(df))
+    st.divider()
+    _render_recommendations_kpi(recommendations)
 
     st.divider()
     _render_monthly_chart(df)
@@ -495,6 +601,9 @@ def main() -> None:
 
     st.divider()
     _render_mom_table(df)
+
+    st.divider()
+    _render_recommendations(recommendations)
 
     _render_footer()
 
