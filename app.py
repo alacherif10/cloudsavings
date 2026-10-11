@@ -1,7 +1,7 @@
 """CloudSavings — Streamlit dashboard.
 
 Two tabs:
-    1. Dashboard           — cost analysis + recommendations
+    1. Dashboard           — cost analysis + recommendations + reports
     2. Savings simulator   — measurement + RaaS fee illustration
 
 Data sources (chosen in the sidebar):
@@ -23,7 +23,7 @@ Design rules:
 """
 from __future__ import annotations
 
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -40,6 +40,7 @@ from src.cost_analysis import (
 )
 from src.csv_import import ImportResult, import_csv_from_bytes, preview_rows
 from src.recommendations import Recommendation, generate_recommendations
+from src.reports import build_csv_report, build_markdown_report
 from src.savings import MIN_WINDOW_DAYS, ApprovedIntervention, measure_savings
 
 # ---- Configuration --------------------------------------------------------
@@ -101,6 +102,8 @@ def _init_session_state() -> None:
         st.session_state.active_name = None
     if "uploader_key" not in st.session_state:
         st.session_state.uploader_key = 0
+    if "savings_measurement" not in st.session_state:
+        st.session_state.savings_measurement = None
 
 
 # ---- Sidebar --------------------------------------------------------------
@@ -126,6 +129,7 @@ def _render_sidebar_upload() -> tuple[bytes | None, str | None]:
         ):
             st.session_state.active_name = None
             st.session_state.uploader_key += 1
+            st.session_state.savings_measurement = None
             st.rerun()
 
         if SAMPLE_DATA_PATH.exists():
@@ -165,7 +169,7 @@ def _render_sidebar_info(stats: dict[str, object], source_name: str) -> None:
             "- ✅ Recommendations\n"
             "- ✅ Savings measurement\n"
             "- ✅ RaaS fee simulator\n"
-            "- ⬜ PDF/CSV reports"
+            "- ✅ Reports (MD + CSV)"
         )
 
         st.divider()
@@ -274,6 +278,7 @@ def _render_upload_preview(result: ImportResult, filename: str) -> None:
             use_container_width=True,
         ):
             st.session_state.active_name = filename
+            st.session_state.savings_measurement = None
             st.rerun()
     with c2:
         st.caption(
@@ -532,6 +537,69 @@ def _render_recommendations(recommendations: list[Recommendation]) -> None:
         _render_recommendation_card(rec, i)
 
 
+# ---- Reports section ------------------------------------------------------
+
+def _render_reports_section(
+    df: pd.DataFrame,
+    recommendations: list[Recommendation],
+    source_name: str,
+    is_synthetic: bool,
+) -> None:
+    """Two download buttons: Markdown report and CSV summary."""
+    st.subheader("📄 Reports")
+
+    st.caption(
+        "Download the full analysis as a Markdown document or a CSV "
+        "summary you can open in Excel. Nothing is uploaded anywhere; "
+        "the files are generated locally in your browser."
+    )
+
+    measurement = st.session_state.get("savings_measurement", None)
+
+    generated_at = datetime.now().replace(microsecond=0)
+
+    md = build_markdown_report(
+        df,
+        recommendations,
+        measurement=measurement,
+        source_name=source_name,
+        is_synthetic=is_synthetic,
+        generated_at=generated_at,
+    )
+    csv_text = build_csv_report(df, recommendations, measurement=measurement)
+
+    safe_name = "".join(
+        c if c.isalnum() or c in "-_." else "_" for c in source_name
+    )
+    timestamp_slug = generated_at.strftime("%Y%m%d-%H%M%S")
+
+    c1, c2 = st.columns(2)
+    with c1:
+        st.download_button(
+            "📄 Download Markdown report",
+            data=md.encode("utf-8"),
+            file_name=f"cloudsavings_{safe_name}_{timestamp_slug}.md",
+            mime="text/markdown",
+            use_container_width=True,
+        )
+    with c2:
+        st.download_button(
+            "📊 Download CSV summary",
+            data=csv_text.encode("utf-8"),
+            file_name=f"cloudsavings_{safe_name}_{timestamp_slug}.csv",
+            mime="text/csv",
+            use_container_width=True,
+        )
+
+    if measurement is None:
+        st.info(
+            "The report will **not** include a savings measurement because "
+            "none has been computed yet. Open the **💵 Savings simulator** "
+            "tab, run a measurement, and come back here to include it.",
+            icon="ℹ️",
+        )
+
+
 # ---- Savings simulator tab ------------------------------------------------
 
 def _slice_by_date(df: pd.DataFrame, start: date, end: date) -> pd.DataFrame:
@@ -567,7 +635,6 @@ def _render_savings_tab(
         )
         return
 
-    # ---- Period selection --------------------------------------------------
     default_third = total_days // 3
     default_baseline_start = min_date
     default_baseline_end = min_date + timedelta(days=default_third)
@@ -629,7 +696,6 @@ def _render_savings_tab(
         f"After: {len(after_df):,} rows"
     )
 
-    # ---- Optional intervention --------------------------------------------
     with st.expander("Declare an approved intervention (optional)"):
         st.caption(
             "Without a declared intervention, no savings will be marked "
@@ -697,7 +763,6 @@ def _render_savings_tab(
                     "without it and verified savings will be $0."
                 )
 
-    # ---- Compute measurement ----------------------------------------------
     potential_monthly = sum(
         r.estimated_monthly_savings_usd for r in recommendations
     )
@@ -709,11 +774,12 @@ def _render_savings_tab(
             interventions=[intervention] if intervention else None,
             potential_saving_monthly=potential_monthly,
         )
+        st.session_state["savings_measurement"] = measurement
     except ValueError as exc:
         st.error(f"Could not compute savings: {exc}")
+        st.session_state.pop("savings_measurement", None)
         return
 
-    # ---- Display result ---------------------------------------------------
     st.markdown("### Measurement result")
 
     c1, c2, c3, c4 = st.columns(4)
@@ -761,7 +827,6 @@ def _render_savings_tab(
             for n in measurement.notes:
                 st.markdown(f"- {n}")
 
-    # ---- Fee simulator ---------------------------------------------------
     st.divider()
     st.subheader("RaaS fee simulator (illustrative)")
     st.info(
@@ -901,6 +966,9 @@ def main() -> None:
 
         st.divider()
         _render_recommendations(recommendations)
+
+        st.divider()
+        _render_reports_section(df, recommendations, source_name, is_synthetic)
 
     with tab_savings:
         _render_savings_tab(df, recommendations)

@@ -411,3 +411,64 @@ def build_markdown_report(
     # Drop empty sections cleanly.
     non_empty = [p for p in parts if p and p.strip()]
     return "\n".join(non_empty).rstrip() + "\n"
+def build_csv_report(
+    df: pd.DataFrame,
+    recommendations: Iterable[Recommendation] = (),
+    measurement: SavingsMeasurement | None = None,
+) -> str:
+    """Build a flat, Excel-friendly CSV summary.
+
+    Structure: three columns `section`, `item`, `value`. Each row is one
+    data point. Sections:
+
+        summary         — totals and coverage
+        monthly         — total cost per month
+        service         — total cost per service
+        recommendation  — one row per recommendation
+        savings         — four savings tiers, if measurement is provided
+
+    Numbers are formatted without thousands separators so that Excel
+    and pandas can parse them back as numbers.
+    """
+    rows: list[tuple[str, str, str]] = []
+
+    stats = summary_stats(df)
+    rows.append(("summary", "total_cost", f"{stats['total_cost']:.2f}"))
+    if stats["mean_monthly_cost"] is not None:
+        rows.append(("summary", "mean_monthly_cost",
+                     f"{stats['mean_monthly_cost']:.2f}"))
+    rows.append(("summary", "num_services", str(stats["num_services"])))
+    rows.append(("summary", "num_days", str(stats["num_days"])))
+    rows.append(("summary", "period_start", str(stats["period_start"])))
+    rows.append(("summary", "period_end", str(stats["period_end"])))
+
+    for _, row in monthly_totals(df).iterrows():
+        rows.append(("monthly", str(row["month"]),
+                     f"{row['total_cost']:.2f}"))
+
+    for _, row in service_breakdown(df).iterrows():
+        rows.append(("service", str(row["service"]),
+                     f"{row['total_cost']:.2f}"))
+
+    for rec in recommendations:
+        label = f"{rec.id} | {rec.service}"
+        rows.append(("recommendation", label,
+                     f"{rec.estimated_monthly_savings_usd:.2f}"))
+
+    if measurement is not None:
+        rows.append(("savings", "potential",
+                     f"{measurement.potential_monthly_saving:.2f}"))
+        rows.append(("savings", "observed",
+                     f"{measurement.observed_monthly_saving:.2f}"))
+        rows.append(("savings", "verified",
+                     f"{measurement.verified_monthly_saving:.2f}"))
+        rows.append(("savings", "eligible_for_billing",
+                     f"{measurement.eligible_for_billing_monthly:.2f}"))
+
+    out_lines = ["section,item,value"]
+    for section, item, value in rows:
+        # Escape commas and quotes in the item field (RFC 4180).
+        if "," in item or '"' in item:
+            item = '"' + item.replace('"', '""') + '"'
+        out_lines.append(f"{section},{item},{value}")
+    return "\n".join(out_lines) + "\n"
