@@ -1,0 +1,11 @@
+usage_date,service,region,usage_type,usage_amount,unit,unblended_cost,currency
+2026-05-01,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,437.5,Hrs,42.0,USD
+2026-05-01,Amazon Simple Storage Service,eu-west-1,TimedStorage,8470.5,GB-Mo,6.5,USD
+2026-05-01,Amazon Relational Database Service,eu-west-1,InstanceUsage,191.3,Hrs,22.0,USD
+2026-05-02,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,450.2,Hrs,43.2,USD
+2026-05-02,Amazon Simple Storage Service,eu-west-1,TimedStorage,8480.0,GB-Mo,6.51,USD
+2026-05-02,Amazon Relational Database Service,eu-west-1,InstanceUsage,191.3,Hrs,22.0,USD
+2026-05-03,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,462.1,Hrs,44.4,USD
+2026-05-03,Amazon Simple Storage Service,eu-west-1,TimedStorage,8485.2,GB-Mo,6.51,USD
+2026-05-03,Amazon Relational Database Service,eu-west-1,InstanceUsage,191.3,Hrs,22.0,USD
+2026-05-03,AWS Lambda,eu-west-1,GB-Seconds,72000.0,GB-Seconds,1.2,USD
