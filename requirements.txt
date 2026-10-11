@@ -1,0 +1,9 @@
+# CloudSavings — core dependencies (Phase 2)
+#
+# Pinned for reproducibility on Python 3.12.
+# If any install fails on Windows, notify the maintainer before loosening pins.
+
+streamlit==1.40.2
+pandas==2.2.3
+plotly==5.24.1
+pytest==8.3.4
