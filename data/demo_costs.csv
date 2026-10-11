@@ -1,0 +1,1465 @@
+usage_date,service,region,usage_type,usage_amount,unit,unblended_cost,currency
+2026-04-01,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,408.9823,Hrs,39.2623,USD
+2026-04-01,Amazon Simple Storage Service,eu-west-1,TimedStorage,8512.3859,GB-Mo,6.529,USD
+2026-04-01,Amazon Relational Database Service,eu-west-1,InstanceUsage,194.9635,Hrs,22.4208,USD
+2026-04-01,AWS Lambda,eu-west-1,GB-Seconds,63773.8725,GB-Seconds,1.0629,USD
+2026-04-01,Amazon CloudFront,eu-west-1,DataTransfer-Out,60.3412,GB,5.129,USD
+2026-04-01,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,32821.1474,GB-Mo,8.7534,USD
+2026-04-01,AWS Data Transfer,eu-west-1,DataTransfer-Out,41.0459,GB,3.4889,USD
+2026-04-01,Amazon ElastiCache,eu-west-1,NodeUsage,77.5294,Hrs,5.272,USD
+2026-04-02,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,407.6062,Hrs,39.1302,USD
+2026-04-02,Amazon Simple Storage Service,eu-west-1,TimedStorage,8476.7927,GB-Mo,6.5017,USD
+2026-04-02,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.4678,Hrs,21.4438,USD
+2026-04-02,AWS Lambda,eu-west-1,GB-Seconds,81257.8375,GB-Seconds,1.3543,USD
+2026-04-02,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.2894,GB,4.9546,USD
+2026-04-02,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,33266.5917,GB-Mo,8.8722,USD
+2026-04-02,AWS Data Transfer,eu-west-1,DataTransfer-Out,40.7459,GB,3.4634,USD
+2026-04-02,Amazon ElastiCache,eu-west-1,NodeUsage,76.8426,Hrs,5.2253,USD
+2026-04-03,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,422.6458,Hrs,40.574,USD
+2026-04-03,Amazon Simple Storage Service,eu-west-1,TimedStorage,8804.5632,GB-Mo,6.7531,USD
+2026-04-03,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.3409,Hrs,21.0842,USD
+2026-04-03,AWS Lambda,eu-west-1,GB-Seconds,79433.8411,GB-Seconds,1.3239,USD
+2026-04-03,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.7776,GB,4.9961,USD
+2026-04-03,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,32943.757,GB-Mo,8.7861,USD
+2026-04-03,AWS Data Transfer,eu-west-1,DataTransfer-Out,39.5753,GB,3.3639,USD
+2026-04-03,Amazon ElastiCache,eu-west-1,NodeUsage,83.4662,Hrs,5.6757,USD
+2026-04-04,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,369.7917,Hrs,35.5,USD
+2026-04-04,Amazon Simple Storage Service,eu-west-1,TimedStorage,8920.4694,GB-Mo,6.842,USD
+2026-04-04,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.167,Hrs,21.5242,USD
+2026-04-04,AWS Lambda,eu-west-1,GB-Seconds,79679.8406,GB-Seconds,1.328,USD
+2026-04-04,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.2271,GB,5.0343,USD
+2026-04-04,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34089.2388,GB-Mo,9.0916,USD
+2026-04-04,AWS Data Transfer,eu-west-1,DataTransfer-Out,33.4506,GB,2.8433,USD
+2026-04-04,Amazon ElastiCache,eu-west-1,NodeUsage,83.0882,Hrs,5.65,USD
+2026-04-05,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,376.3885,Hrs,36.1333,USD
+2026-04-05,Amazon Simple Storage Service,eu-west-1,TimedStorage,8896.0887,GB-Mo,6.8233,USD
+2026-04-05,Amazon Relational Database Service,eu-west-1,InstanceUsage,190.4322,Hrs,21.8997,USD
+2026-04-05,AWS Lambda,eu-west-1,GB-Seconds,74015.852,GB-Seconds,1.2336,USD
+2026-04-05,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.0012,GB,4.9301,USD
+2026-04-05,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,33901.3873,GB-Mo,9.0415,USD
+2026-04-05,AWS Data Transfer,eu-west-1,DataTransfer-Out,29.6341,GB,2.5189,USD
+2026-04-05,Amazon ElastiCache,eu-west-1,NodeUsage,79.0618,Hrs,5.3762,USD
+2026-04-06,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,439.7708,Hrs,42.218,USD
+2026-04-06,Amazon Simple Storage Service,eu-west-1,TimedStorage,8728.1617,GB-Mo,6.6945,USD
+2026-04-06,Amazon Relational Database Service,eu-west-1,InstanceUsage,182.44,Hrs,20.9806,USD
+2026-04-06,AWS Lambda,eu-west-1,GB-Seconds,83927.8321,GB-Seconds,1.3988,USD
+2026-04-06,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.9235,GB,4.8385,USD
+2026-04-06,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35544.8069,GB-Mo,9.4798,USD
+2026-04-06,AWS Data Transfer,eu-west-1,DataTransfer-Out,40.9624,GB,3.4818,USD
+2026-04-06,Amazon ElastiCache,eu-west-1,NodeUsage,80.4544,Hrs,5.4709,USD
+2026-04-07,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,477.6552,Hrs,45.8549,USD
+2026-04-07,Amazon Simple Storage Service,eu-west-1,TimedStorage,8980.704,GB-Mo,6.8882,USD
+2026-04-07,Amazon Relational Database Service,eu-west-1,InstanceUsage,193.3313,Hrs,22.2331,USD
+2026-04-07,AWS Lambda,eu-west-1,GB-Seconds,70403.8592,GB-Seconds,1.1734,USD
+2026-04-07,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.8235,GB,4.915,USD
+2026-04-07,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,32507.3116,GB-Mo,8.6697,USD
+2026-04-07,AWS Data Transfer,eu-west-1,DataTransfer-Out,34.9918,GB,2.9743,USD
+2026-04-07,Amazon ElastiCache,eu-west-1,NodeUsage,78.8735,Hrs,5.3634,USD
+2026-04-08,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,408.749,Hrs,39.2399,USD
+2026-04-08,Amazon Simple Storage Service,eu-west-1,TimedStorage,8889.309,GB-Mo,6.8181,USD
+2026-04-08,Amazon Relational Database Service,eu-west-1,InstanceUsage,197.1922,Hrs,22.6771,USD
+2026-04-08,AWS Lambda,eu-west-1,GB-Seconds,82229.8355,GB-Seconds,1.3705,USD
+2026-04-08,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.18,GB,4.7753,USD
+2026-04-08,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35092.2385,GB-Mo,9.3591,USD
+2026-04-08,AWS Data Transfer,eu-west-1,DataTransfer-Out,41.8224,GB,3.5549,USD
+2026-04-08,Amazon ElastiCache,eu-west-1,NodeUsage,84.1279,Hrs,5.7207,USD
+2026-04-09,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,426.0719,Hrs,40.9029,USD
+2026-04-09,Amazon Simple Storage Service,eu-west-1,TimedStorage,8338.4615,GB-Mo,6.3956,USD
+2026-04-09,Amazon Relational Database Service,eu-west-1,InstanceUsage,198.3,Hrs,22.8045,USD
+2026-04-09,AWS Lambda,eu-west-1,GB-Seconds,81173.8377,GB-Seconds,1.3529,USD
+2026-04-09,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.5918,GB,4.6403,USD
+2026-04-09,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,33013.1234,GB-Mo,8.8046,USD
+2026-04-09,AWS Data Transfer,eu-west-1,DataTransfer-Out,35.9318,GB,3.0542,USD
+2026-04-09,Amazon ElastiCache,eu-west-1,NodeUsage,80.4412,Hrs,5.47,USD
+2026-04-10,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,449.4042,Hrs,43.1428,USD
+2026-04-10,Amazon Simple Storage Service,eu-west-1,TimedStorage,8882.0078,GB-Mo,6.8125,USD
+2026-04-10,Amazon Relational Database Service,eu-west-1,InstanceUsage,194.5496,Hrs,22.3732,USD
+2026-04-10,AWS Lambda,eu-west-1,GB-Seconds,71843.8563,GB-Seconds,1.1974,USD
+2026-04-10,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.8541,GB,4.9176,USD
+2026-04-10,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,32983.1271,GB-Mo,8.7966,USD
+2026-04-10,AWS Data Transfer,eu-west-1,DataTransfer-Out,42.4341,GB,3.6069,USD
+2026-04-10,Amazon ElastiCache,eu-west-1,NodeUsage,77.6838,Hrs,5.2825,USD
+2026-04-11,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,400.9656,Hrs,38.4927,USD
+2026-04-11,Amazon Simple Storage Service,eu-west-1,TimedStorage,8754.6284,GB-Mo,6.7148,USD
+2026-04-11,Amazon Relational Database Service,eu-west-1,InstanceUsage,197.7739,Hrs,22.744,USD
+2026-04-11,AWS Lambda,eu-west-1,GB-Seconds,79487.841,GB-Seconds,1.3248,USD
+2026-04-11,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.2624,GB,4.6973,USD
+2026-04-11,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35137.9828,GB-Mo,9.3713,USD
+2026-04-11,AWS Data Transfer,eu-west-1,DataTransfer-Out,31.4282,GB,2.6714,USD
+2026-04-11,Amazon ElastiCache,eu-west-1,NodeUsage,81.5015,Hrs,5.5421,USD
+2026-04-12,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,386.2354,Hrs,37.0786,USD
+2026-04-12,Amazon Simple Storage Service,eu-west-1,TimedStorage,8975.6193,GB-Mo,6.8843,USD
+2026-04-12,Amazon Relational Database Service,eu-west-1,InstanceUsage,192.1217,Hrs,22.094,USD
+2026-04-12,AWS Lambda,eu-west-1,GB-Seconds,77411.8452,GB-Seconds,1.2902,USD
+2026-04-12,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.1741,GB,4.6898,USD
+2026-04-12,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35309.3363,GB-Mo,9.417,USD
+2026-04-12,AWS Data Transfer,eu-west-1,DataTransfer-Out,33.6659,GB,2.8616,USD
+2026-04-12,Amazon ElastiCache,eu-west-1,NodeUsage,77.9897,Hrs,5.3033,USD
+2026-04-13,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,434.2208,Hrs,41.6852,USD
+2026-04-13,Amazon Simple Storage Service,eu-west-1,TimedStorage,8870.7953,GB-Mo,6.8039,USD
+2026-04-13,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.3348,Hrs,21.6585,USD
+2026-04-13,AWS Lambda,eu-west-1,GB-Seconds,80321.8394,GB-Seconds,1.3387,USD
+2026-04-13,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.2365,GB,5.0351,USD
+2026-04-13,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,32784.7769,GB-Mo,8.7437,USD
+2026-04-13,AWS Data Transfer,eu-west-1,DataTransfer-Out,41.5988,GB,3.5359,USD
+2026-04-13,Amazon ElastiCache,eu-west-1,NodeUsage,78.4721,Hrs,5.3361,USD
+2026-04-14,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,428.0719,Hrs,41.0949,USD
+2026-04-14,Amazon Simple Storage Service,eu-west-1,TimedStorage,8627.6402,GB-Mo,6.6174,USD
+2026-04-14,Amazon Relational Database Service,eu-west-1,InstanceUsage,191.2035,Hrs,21.9884,USD
+2026-04-14,AWS Lambda,eu-west-1,GB-Seconds,89393.8212,GB-Seconds,1.4899,USD
+2026-04-14,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.7235,GB,4.7365,USD
+2026-04-14,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35073.1159,GB-Mo,9.354,USD
+2026-04-14,AWS Data Transfer,eu-west-1,DataTransfer-Out,35.3294,GB,3.003,USD
+2026-04-14,Amazon ElastiCache,eu-west-1,NodeUsage,78.4853,Hrs,5.337,USD
+2026-04-15,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,450.5198,Hrs,43.2499,USD
+2026-04-15,Amazon Simple Storage Service,eu-west-1,TimedStorage,9350.7171,GB-Mo,7.172,USD
+2026-04-15,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.8287,Hrs,22.6353,USD
+2026-04-15,AWS Lambda,eu-west-1,GB-Seconds,92195.8156,GB-Seconds,1.5366,USD
+2026-04-15,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.94,GB,4.8399,USD
+2026-04-15,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,33627.6715,GB-Mo,8.9685,USD
+2026-04-15,AWS Data Transfer,eu-west-1,DataTransfer-Out,42.5259,GB,3.6147,USD
+2026-04-15,Amazon ElastiCache,eu-west-1,NodeUsage,82.9118,Hrs,5.638,USD
+2026-04-16,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,452.3969,Hrs,43.4301,USD
+2026-04-16,Amazon Simple Storage Service,eu-west-1,TimedStorage,8705.7366,GB-Mo,6.6773,USD
+2026-04-16,Amazon Relational Database Service,eu-west-1,InstanceUsage,185.6383,Hrs,21.3484,USD
+2026-04-16,AWS Lambda,eu-west-1,GB-Seconds,71609.8568,GB-Seconds,1.1935,USD
+2026-04-16,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.5376,GB,4.5507,USD
+2026-04-16,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,32595.0506,GB-Mo,8.6931,USD
+2026-04-16,AWS Data Transfer,eu-west-1,DataTransfer-Out,36.14,GB,3.0719,USD
+2026-04-16,Amazon ElastiCache,eu-west-1,NodeUsage,84.3897,Hrs,5.7385,USD
+2026-04-17,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,477.0104,Hrs,45.793,USD
+2026-04-17,Amazon Simple Storage Service,eu-west-1,TimedStorage,9369.8827,GB-Mo,7.1867,USD
+2026-04-17,Amazon Relational Database Service,eu-west-1,InstanceUsage,190.7887,Hrs,21.9407,USD
+2026-04-17,AWS Lambda,eu-west-1,GB-Seconds,90329.8193,GB-Seconds,1.5055,USD
+2026-04-17,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.8529,GB,4.5775,USD
+2026-04-17,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,33472.066,GB-Mo,8.927,USD
+2026-04-17,AWS Data Transfer,eu-west-1,DataTransfer-Out,40.4965,GB,3.4422,USD
+2026-04-17,Amazon ElastiCache,eu-west-1,NodeUsage,80.6544,Hrs,5.4845,USD
+2026-04-18,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,362.3531,Hrs,34.7859,USD
+2026-04-18,Amazon Simple Storage Service,eu-west-1,TimedStorage,8756.7145,GB-Mo,6.7164,USD
+2026-04-18,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.2478,Hrs,21.0735,USD
+2026-04-18,AWS Lambda,eu-west-1,GB-Seconds,76691.8466,GB-Seconds,1.2782,USD
+2026-04-18,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.16,GB,4.8586,USD
+2026-04-18,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34103.1121,GB-Mo,9.0953,USD
+2026-04-18,AWS Data Transfer,eu-west-1,DataTransfer-Out,31.4506,GB,2.6733,USD
+2026-04-18,Amazon ElastiCache,eu-west-1,NodeUsage,79.0882,Hrs,5.378,USD
+2026-04-19,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,361.3531,Hrs,34.6899,USD
+2026-04-19,Amazon Simple Storage Service,eu-west-1,TimedStorage,8739.2438,GB-Mo,6.703,USD
+2026-04-19,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.1548,Hrs,21.1778,USD
+2026-04-19,AWS Lambda,eu-west-1,GB-Seconds,93947.8121,GB-Seconds,1.5658,USD
+2026-04-19,Amazon CloudFront,eu-west-1,DataTransfer-Out,60.0106,GB,5.1009,USD
+2026-04-19,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34825.6468,GB-Mo,9.288,USD
+2026-04-19,AWS Data Transfer,eu-west-1,DataTransfer-Out,32.4188,GB,2.7556,USD
+2026-04-19,Amazon ElastiCache,eu-west-1,NodeUsage,82.7294,Hrs,5.6256,USD
+2026-04-20,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,432.2208,Hrs,41.4932,USD
+2026-04-20,Amazon Simple Storage Service,eu-west-1,TimedStorage,8815.7757,GB-Mo,6.7617,USD
+2026-04-20,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.3774,Hrs,22.4684,USD
+2026-04-20,AWS Lambda,eu-west-1,GB-Seconds,93215.8136,GB-Seconds,1.5536,USD
+2026-04-20,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.1459,GB,4.5174,USD
+2026-04-20,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,33366.7042,GB-Mo,8.8989,USD
+2026-04-20,AWS Data Transfer,eu-west-1,DataTransfer-Out,42.9988,GB,3.6549,USD
+2026-04-20,Amazon ElastiCache,eu-west-1,NodeUsage,83.3191,Hrs,5.6657,USD
+2026-04-21,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,449.1812,Hrs,43.1214,USD
+2026-04-21,Amazon Simple Storage Service,eu-west-1,TimedStorage,9210.4302,GB-Mo,7.0644,USD
+2026-04-21,Amazon Relational Database Service,eu-west-1,InstanceUsage,192.46,Hrs,22.1329,USD
+2026-04-21,AWS Lambda,eu-west-1,GB-Seconds,78479.843,GB-Seconds,1.308,USD
+2026-04-21,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.8929,GB,5.0909,USD
+2026-04-21,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,33418.8226,GB-Mo,8.9128,USD
+2026-04-21,AWS Data Transfer,eu-west-1,DataTransfer-Out,39.5529,GB,3.362,USD
+2026-04-21,Amazon ElastiCache,eu-west-1,NodeUsage,77.5838,Hrs,5.2757,USD
+2026-04-22,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,467.1729,Hrs,44.8486,USD
+2026-04-22,Amazon Simple Storage Service,eu-west-1,TimedStorage,9234.0287,GB-Mo,7.0825,USD
+2026-04-22,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.1165,Hrs,21.6334,USD
+2026-04-22,AWS Lambda,eu-west-1,GB-Seconds,92963.8141,GB-Seconds,1.5494,USD
+2026-04-22,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.3624,GB,4.7908,USD
+2026-04-22,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35042.3697,GB-Mo,9.3458,USD
+2026-04-22,AWS Data Transfer,eu-west-1,DataTransfer-Out,36.2376,GB,3.0802,USD
+2026-04-22,Amazon ElastiCache,eu-west-1,NodeUsage,82.0912,Hrs,5.5822,USD
+2026-04-23,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,461.0927,Hrs,44.2649,USD
+2026-04-23,Amazon Simple Storage Service,eu-west-1,TimedStorage,9078.2269,GB-Mo,6.963,USD
+2026-04-23,Amazon Relational Database Service,eu-west-1,InstanceUsage,193.187,Hrs,22.2165,USD
+2026-04-23,AWS Lambda,eu-west-1,GB-Seconds,87617.8248,GB-Seconds,1.4603,USD
+2026-04-23,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.9376,GB,5.0947,USD
+2026-04-23,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,32811.3986,GB-Mo,8.7508,USD
+2026-04-23,AWS Data Transfer,eu-west-1,DataTransfer-Out,40.0976,GB,3.4083,USD
+2026-04-23,Amazon ElastiCache,eu-west-1,NodeUsage,80.2382,Hrs,5.4562,USD
+2026-04-24,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,485.0,Hrs,46.56,USD
+2026-04-24,Amazon Simple Storage Service,eu-west-1,TimedStorage,9139.2438,GB-Mo,7.0098,USD
+2026-04-24,Amazon Relational Database Service,eu-west-1,InstanceUsage,189.9061,Hrs,21.8392,USD
+2026-04-24,AWS Lambda,eu-west-1,GB-Seconds,84323.8314,GB-Seconds,1.4054,USD
+2026-04-24,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.2612,GB,4.8672,USD
+2026-04-24,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34359.5801,GB-Mo,9.1637,USD
+2026-04-24,AWS Data Transfer,eu-west-1,DataTransfer-Out,37.9788,GB,3.2282,USD
+2026-04-24,Amazon ElastiCache,eu-west-1,NodeUsage,77.4824,Hrs,5.2688,USD
+2026-04-25,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,395.375,Hrs,37.956,USD
+2026-04-25,Amazon Simple Storage Service,eu-west-1,TimedStorage,9052.9335,GB-Mo,6.9436,USD
+2026-04-25,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.2739,Hrs,22.4565,USD
+2026-04-25,AWS Lambda,eu-west-1,GB-Seconds,104453.7911,GB-Seconds,1.7409,USD
+2026-04-25,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.6118,GB,4.982,USD
+2026-04-25,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,33187.1016,GB-Mo,8.851,USD
+2026-04-25,AWS Data Transfer,eu-west-1,DataTransfer-Out,33.1,GB,2.8135,USD
+2026-04-25,Amazon ElastiCache,eu-west-1,NodeUsage,81.7721,Hrs,5.5605,USD
+2026-04-26,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,403.3646,Hrs,38.723,USD
+2026-04-26,Amazon Simple Storage Service,eu-west-1,TimedStorage,9151.369,GB-Mo,7.0191,USD
+2026-04-26,Amazon Relational Database Service,eu-west-1,InstanceUsage,191.2148,Hrs,21.9897,USD
+2026-04-26,AWS Lambda,eu-west-1,GB-Seconds,101327.7973,GB-Seconds,1.6888,USD
+2026-04-26,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.6694,GB,4.6469,USD
+2026-04-26,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34201.3498,GB-Mo,9.1215,USD
+2026-04-26,AWS Data Transfer,eu-west-1,DataTransfer-Out,31.7341,GB,2.6974,USD
+2026-04-26,Amazon ElastiCache,eu-west-1,NodeUsage,81.3868,Hrs,5.5343,USD
+2026-04-27,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,453.7854,Hrs,43.5634,USD
+2026-04-27,Amazon Simple Storage Service,eu-west-1,TimedStorage,9811.4733,GB-Mo,7.5254,USD
+2026-04-27,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.5713,Hrs,21.6857,USD
+2026-04-27,AWS Lambda,eu-west-1,GB-Seconds,93551.8129,GB-Seconds,1.5592,USD
+2026-04-27,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.1165,GB,4.8549,USD
+2026-04-27,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35162.7297,GB-Mo,9.3779,USD
+2026-04-27,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.7106,GB,3.7154,USD
+2026-04-27,Amazon ElastiCache,eu-west-1,NodeUsage,84.0015,Hrs,5.7121,USD
+2026-04-28,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,448.0573,Hrs,43.0135,USD
+2026-04-28,Amazon Simple Storage Service,eu-west-1,TimedStorage,9653.5854,GB-Mo,7.4043,USD
+2026-04-28,Amazon Relational Database Service,eu-west-1,InstanceUsage,192.2835,Hrs,22.1126,USD
+2026-04-28,AWS Lambda,eu-west-1,GB-Seconds,96359.8073,GB-Seconds,1.606,USD
+2026-04-28,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.4506,GB,4.6283,USD
+2026-04-28,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35179.2276,GB-Mo,9.3823,USD
+2026-04-28,AWS Data Transfer,eu-west-1,DataTransfer-Out,40.9576,GB,3.4814,USD
+2026-04-28,Amazon ElastiCache,eu-west-1,NodeUsage,77.2971,Hrs,5.2562,USD
+2026-04-29,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,491.8958,Hrs,47.222,USD
+2026-04-29,Amazon Simple Storage Service,eu-west-1,TimedStorage,9613.0378,GB-Mo,7.3732,USD
+2026-04-29,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.8374,Hrs,21.6013,USD
+2026-04-29,AWS Lambda,eu-west-1,GB-Seconds,94589.8108,GB-Seconds,1.5765,USD
+2026-04-29,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.7012,GB,4.7346,USD
+2026-04-29,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36332.9584,GB-Mo,9.69,USD
+2026-04-29,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.6376,GB,3.7092,USD
+2026-04-29,Amazon ElastiCache,eu-west-1,NodeUsage,81.6824,Hrs,5.5544,USD
+2026-04-30,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,439.8583,Hrs,42.2264,USD
+2026-04-30,Amazon Simple Storage Service,eu-west-1,TimedStorage,9792.1773,GB-Mo,7.5106,USD
+2026-04-30,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.0852,Hrs,21.6298,USD
+2026-04-30,AWS Lambda,eu-west-1,GB-Seconds,85547.8289,GB-Seconds,1.4258,USD
+2026-04-30,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.0024,GB,4.7602,USD
+2026-04-30,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35075.3656,GB-Mo,9.3546,USD
+2026-04-30,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.1024,GB,3.8337,USD
+2026-04-30,Amazon ElastiCache,eu-west-1,NodeUsage,81.1897,Hrs,5.5209,USD
+2026-05-01,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,454.9906,Hrs,43.6791,USD
+2026-05-01,Amazon Simple Storage Service,eu-west-1,TimedStorage,9961.4081,GB-Mo,7.6404,USD
+2026-05-01,Amazon Relational Database Service,eu-west-1,InstanceUsage,194.8713,Hrs,22.4102,USD
+2026-05-01,AWS Lambda,eu-west-1,GB-Seconds,96275.8074,GB-Seconds,1.6046,USD
+2026-05-01,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.8247,GB,4.9151,USD
+2026-05-01,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35182.6022,GB-Mo,9.3832,USD
+2026-05-01,AWS Data Transfer,eu-west-1,DataTransfer-Out,37.1047,GB,3.1539,USD
+2026-05-01,Amazon ElastiCache,eu-west-1,NodeUsage,78.2412,Hrs,5.3204,USD
+2026-05-02,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,410.3656,Hrs,39.3951,USD
+2026-05-02,Amazon Simple Storage Service,eu-west-1,TimedStorage,9530.2477,GB-Mo,7.3097,USD
+2026-05-02,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.6609,Hrs,22.616,USD
+2026-05-02,AWS Lambda,eu-west-1,GB-Seconds,94091.8118,GB-Seconds,1.5682,USD
+2026-05-02,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.8435,GB,5.0017,USD
+2026-05-02,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35390.7012,GB-Mo,9.4387,USD
+2026-05-02,AWS Data Transfer,eu-west-1,DataTransfer-Out,37.8976,GB,3.2213,USD
+2026-05-02,Amazon ElastiCache,eu-west-1,NodeUsage,80.8765,Hrs,5.4996,USD
+2026-05-03,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,424.9844,Hrs,40.7985,USD
+2026-05-03,Amazon Simple Storage Service,eu-west-1,TimedStorage,9595.9583,GB-Mo,7.3601,USD
+2026-05-03,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.3261,Hrs,21.6575,USD
+2026-05-03,AWS Lambda,eu-west-1,GB-Seconds,101753.7965,GB-Seconds,1.6959,USD
+2026-05-03,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.6765,GB,4.8175,USD
+2026-05-03,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36379.4526,GB-Mo,9.7024,USD
+2026-05-03,AWS Data Transfer,eu-west-1,DataTransfer-Out,33.8212,GB,2.8748,USD
+2026-05-03,Amazon ElastiCache,eu-west-1,NodeUsage,84.2294,Hrs,5.7276,USD
+2026-05-04,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,476.1677,Hrs,45.7121,USD
+2026-05-04,Amazon Simple Storage Service,eu-west-1,TimedStorage,9467.7966,GB-Mo,7.2618,USD
+2026-05-04,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.6461,Hrs,21.4643,USD
+2026-05-04,AWS Lambda,eu-west-1,GB-Seconds,104171.7917,GB-Seconds,1.7362,USD
+2026-05-04,Amazon CloudFront,eu-west-1,DataTransfer-Out,60.1918,GB,5.1163,USD
+2026-05-04,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35641.9198,GB-Mo,9.5057,USD
+2026-05-04,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.4365,GB,3.6921,USD
+2026-05-04,Amazon ElastiCache,eu-west-1,NodeUsage,82.9441,Hrs,5.6402,USD
+2026-05-05,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,449.2344,Hrs,43.1265,USD
+2026-05-05,Amazon Simple Storage Service,eu-west-1,TimedStorage,9223.5984,GB-Mo,7.0745,USD
+2026-05-05,Amazon Relational Database Service,eu-west-1,InstanceUsage,194.0974,Hrs,22.3212,USD
+2026-05-05,AWS Lambda,eu-west-1,GB-Seconds,114419.7712,GB-Seconds,1.907,USD
+2026-05-05,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.2188,GB,4.7786,USD
+2026-05-05,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34366.3292,GB-Mo,9.1655,USD
+2026-05-05,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.6847,GB,3.8832,USD
+2026-05-05,Amazon ElastiCache,eu-west-1,NodeUsage,79.5324,Hrs,5.4082,USD
+2026-05-06,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,481.5479,Hrs,46.2286,USD
+2026-05-06,Amazon Simple Storage Service,eu-west-1,TimedStorage,9895.9583,GB-Mo,7.5902,USD
+2026-05-06,Amazon Relational Database Service,eu-west-1,InstanceUsage,200.1687,Hrs,23.0194,USD
+2026-05-06,AWS Lambda,eu-west-1,GB-Seconds,96449.8071,GB-Seconds,1.6075,USD
+2026-05-06,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.7871,GB,4.7419,USD
+2026-05-06,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34805.3993,GB-Mo,9.2826,USD
+2026-05-06,AWS Data Transfer,eu-west-1,DataTransfer-Out,39.1047,GB,3.3239,USD
+2026-05-06,Amazon ElastiCache,eu-west-1,NodeUsage,79.9176,Hrs,5.4344,USD
+2026-05-07,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,432.9552,Hrs,41.5637,USD
+2026-05-07,Amazon Simple Storage Service,eu-west-1,TimedStorage,9578.8787,GB-Mo,7.347,USD
+2026-05-07,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.0357,Hrs,22.4291,USD
+2026-05-07,AWS Lambda,eu-west-1,GB-Seconds,106715.7866,GB-Seconds,1.7786,USD
+2026-05-07,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.7376,GB,4.5677,USD
+2026-05-07,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36079.4901,GB-Mo,9.6224,USD
+2026-05-07,AWS Data Transfer,eu-west-1,DataTransfer-Out,38.9741,GB,3.3128,USD
+2026-05-07,Amazon ElastiCache,eu-west-1,NodeUsage,83.9221,Hrs,5.7067,USD
+2026-05-08,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,469.9969,Hrs,45.1197,USD
+2026-05-08,Amazon Simple Storage Service,eu-west-1,TimedStorage,9404.5632,GB-Mo,7.2133,USD
+2026-05-08,Amazon Relational Database Service,eu-west-1,InstanceUsage,198.8357,Hrs,22.8661,USD
+2026-05-08,AWS Lambda,eu-west-1,GB-Seconds,94109.8118,GB-Seconds,1.5685,USD
+2026-05-08,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.3706,GB,4.7915,USD
+2026-05-08,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36208.4739,GB-Mo,9.6568,USD
+2026-05-08,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.7176,GB,3.886,USD
+2026-05-08,Amazon ElastiCache,eu-west-1,NodeUsage,84.2544,Hrs,5.7293,USD
+2026-05-09,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,398.5813,Hrs,38.2638,USD
+2026-05-09,Amazon Simple Storage Service,eu-west-1,TimedStorage,9678.4876,GB-Mo,7.4234,USD
+2026-05-09,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.3774,Hrs,21.2034,USD
+2026-05-09,AWS Lambda,eu-west-1,GB-Seconds,116357.7673,GB-Seconds,1.9393,USD
+2026-05-09,Amazon CloudFront,eu-west-1,DataTransfer-Out,60.2906,GB,5.1247,USD
+2026-05-09,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34320.21,GB-Mo,9.1532,USD
+2026-05-09,AWS Data Transfer,eu-west-1,DataTransfer-Out,35.0247,GB,2.9771,USD
+2026-05-09,Amazon ElastiCache,eu-west-1,NodeUsage,84.6853,Hrs,5.7586,USD
+2026-05-10,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,425.5594,Hrs,40.8537,USD
+2026-05-10,Amazon Simple Storage Service,eu-west-1,TimedStorage,10295.9583,GB-Mo,7.897,USD
+2026-05-10,Amazon Relational Database Service,eu-west-1,InstanceUsage,199.0826,Hrs,22.8945,USD
+2026-05-10,AWS Lambda,eu-west-1,GB-Seconds,111143.7777,GB-Seconds,1.8524,USD
+2026-05-10,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.3329,GB,4.5333,USD
+2026-05-10,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34124.8594,GB-Mo,9.1011,USD
+2026-05-10,AWS Data Transfer,eu-west-1,DataTransfer-Out,39.0576,GB,3.3199,USD
+2026-05-10,Amazon ElastiCache,eu-west-1,NodeUsage,82.0809,Hrs,5.5815,USD
+2026-05-11,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,506.4167,Hrs,48.616,USD
+2026-05-11,Amazon Simple Storage Service,eu-west-1,TimedStorage,10186.8318,GB-Mo,7.8133,USD
+2026-05-11,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.6704,Hrs,21.2371,USD
+2026-05-11,AWS Lambda,eu-west-1,GB-Seconds,108653.7827,GB-Seconds,1.8109,USD
+2026-05-11,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.1106,GB,4.5994,USD
+2026-05-11,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34415.823,GB-Mo,9.1787,USD
+2026-05-11,AWS Data Transfer,eu-west-1,DataTransfer-Out,42.3906,GB,3.6032,USD
+2026-05-11,Amazon ElastiCache,eu-west-1,NodeUsage,80.3485,Hrs,5.4637,USD
+2026-05-12,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,480.7198,Hrs,46.1491,USD
+2026-05-12,Amazon Simple Storage Service,eu-west-1,TimedStorage,9936.3755,GB-Mo,7.6212,USD
+2026-05-12,Amazon Relational Database Service,eu-west-1,InstanceUsage,199.3983,Hrs,22.9308,USD
+2026-05-12,AWS Lambda,eu-west-1,GB-Seconds,109109.7818,GB-Seconds,1.8185,USD
+2026-05-12,Amazon CloudFront,eu-west-1,DataTransfer-Out,52.6788,GB,4.4777,USD
+2026-05-12,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36128.6089,GB-Mo,9.6355,USD
+2026-05-12,AWS Data Transfer,eu-west-1,DataTransfer-Out,44.3518,GB,3.7699,USD
+2026-05-12,Amazon ElastiCache,eu-west-1,NodeUsage,81.5647,Hrs,5.5464,USD
+2026-05-13,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,441.2906,Hrs,42.3639,USD
+2026-05-13,Amazon Simple Storage Service,eu-west-1,TimedStorage,9761.4081,GB-Mo,7.487,USD
+2026-05-13,Amazon Relational Database Service,eu-west-1,InstanceUsage,199.6913,Hrs,22.9645,USD
+2026-05-13,AWS Lambda,eu-west-1,GB-Seconds,101651.7967,GB-Seconds,1.6942,USD
+2026-05-13,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.74,GB,4.6529,USD
+2026-05-13,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34262.4672,GB-Mo,9.1378,USD
+2026-05-13,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.96,GB,3.9066,USD
+2026-05-13,Amazon ElastiCache,eu-west-1,NodeUsage,84.0235,Hrs,5.7136,USD
+2026-05-14,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,475.1531,Hrs,45.6147,USD
+2026-05-14,Amazon Simple Storage Service,eu-west-1,TimedStorage,10152.6728,GB-Mo,7.7871,USD
+2026-05-14,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.7209,Hrs,21.5879,USD
+2026-05-14,AWS Lambda,eu-west-1,GB-Seconds,103463.7931,GB-Seconds,1.7244,USD
+2026-05-14,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.9518,GB,5.0109,USD
+2026-05-14,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35029.2463,GB-Mo,9.3423,USD
+2026-05-14,AWS Data Transfer,eu-west-1,DataTransfer-Out,46.0729,GB,3.9162,USD
+2026-05-14,Amazon ElastiCache,eu-west-1,NodeUsage,83.8206,Hrs,5.6998,USD
+2026-05-15,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,489.9333,Hrs,47.0336,USD
+2026-05-15,Amazon Simple Storage Service,eu-west-1,TimedStorage,10249.4133,GB-Mo,7.8613,USD
+2026-05-15,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.2487,Hrs,21.1886,USD
+2026-05-15,AWS Lambda,eu-west-1,GB-Seconds,125759.7485,GB-Seconds,2.096,USD
+2026-05-15,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.4341,GB,4.7969,USD
+2026-05-15,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36700.4124,GB-Mo,9.788,USD
+2026-05-15,AWS Data Transfer,eu-west-1,DataTransfer-Out,44.8729,GB,3.8142,USD
+2026-05-15,Amazon ElastiCache,eu-west-1,NodeUsage,83.5382,Hrs,5.6806,USD
+2026-05-16,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,384.0948,Hrs,36.8731,USD
+2026-05-16,Amazon Simple Storage Service,eu-west-1,TimedStorage,9968.4485,GB-Mo,7.6458,USD
+2026-05-16,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.9748,Hrs,21.1571,USD
+2026-05-16,AWS Lambda,eu-west-1,GB-Seconds,96863.8063,GB-Seconds,1.6144,USD
+2026-05-16,Amazon CloudFront,eu-west-1,DataTransfer-Out,60.0859,GB,5.1073,USD
+2026-05-16,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35869.5163,GB-Mo,9.5664,USD
+2026-05-16,AWS Data Transfer,eu-west-1,DataTransfer-Out,38.1329,GB,3.2413,USD
+2026-05-16,Amazon ElastiCache,eu-west-1,NodeUsage,84.4706,Hrs,5.744,USD
+2026-05-17,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,417.1094,Hrs,40.0425,USD
+2026-05-17,Amazon Simple Storage Service,eu-west-1,TimedStorage,9779.5306,GB-Mo,7.5009,USD
+2026-05-17,Amazon Relational Database Service,eu-west-1,InstanceUsage,192.6513,Hrs,22.1549,USD
+2026-05-17,AWS Lambda,eu-west-1,GB-Seconds,108863.7823,GB-Seconds,1.8144,USD
+2026-05-17,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.9741,GB,5.0978,USD
+2026-05-17,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37015.748,GB-Mo,9.8721,USD
+2026-05-17,AWS Data Transfer,eu-west-1,DataTransfer-Out,34.1953,GB,2.9066,USD
+2026-05-17,Amazon ElastiCache,eu-west-1,NodeUsage,77.5868,Hrs,5.2759,USD
+2026-05-18,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,452.7313,Hrs,43.4622,USD
+2026-05-18,Amazon Simple Storage Service,eu-west-1,TimedStorage,10096.4798,GB-Mo,7.744,USD
+2026-05-18,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.813,Hrs,21.1385,USD
+2026-05-18,AWS Lambda,eu-west-1,GB-Seconds,119087.7618,GB-Seconds,1.9848,USD
+2026-05-18,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.7,GB,4.9895,USD
+2026-05-18,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35808.399,GB-Mo,9.5501,USD
+2026-05-18,AWS Data Transfer,eu-west-1,DataTransfer-Out,47.5447,GB,4.0413,USD
+2026-05-18,Amazon ElastiCache,eu-west-1,NodeUsage,83.8647,Hrs,5.7028,USD
+2026-05-19,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,473.2635,Hrs,45.4333,USD
+2026-05-19,Amazon Simple Storage Service,eu-west-1,TimedStorage,9868.0574,GB-Mo,7.5688,USD
+2026-05-19,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.2417,Hrs,21.5328,USD
+2026-05-19,AWS Lambda,eu-west-1,GB-Seconds,121145.7577,GB-Seconds,2.0191,USD
+2026-05-19,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.4165,GB,5.0504,USD
+2026-05-19,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35346.0817,GB-Mo,9.4268,USD
+2026-05-19,AWS Data Transfer,eu-west-1,DataTransfer-Out,40.5882,GB,3.45,USD
+2026-05-19,Amazon ElastiCache,eu-west-1,NodeUsage,83.5235,Hrs,5.6796,USD
+2026-05-20,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,465.4073,Hrs,44.6791,USD
+2026-05-20,Amazon Simple Storage Service,eu-west-1,TimedStorage,9999.4785,GB-Mo,7.6696,USD
+2026-05-20,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.4061,Hrs,21.4367,USD
+2026-05-20,AWS Lambda,eu-west-1,GB-Seconds,132419.7352,GB-Seconds,2.207,USD
+2026-05-20,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.7353,GB,4.9075,USD
+2026-05-20,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35468.3165,GB-Mo,9.4594,USD
+2026-05-20,AWS Data Transfer,eu-west-1,DataTransfer-Out,41.9824,GB,3.5685,USD
+2026-05-20,Amazon ElastiCache,eu-west-1,NodeUsage,78.0485,Hrs,5.3073,USD
+2026-05-21,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,511.051,Hrs,49.0609,USD
+2026-05-21,Amazon Simple Storage Service,eu-west-1,TimedStorage,10185.9192,GB-Mo,7.8126,USD
+2026-05-21,Amazon Relational Database Service,eu-west-1,InstanceUsage,192.2043,Hrs,22.1035,USD
+2026-05-21,AWS Lambda,eu-west-1,GB-Seconds,102221.7956,GB-Seconds,1.7037,USD
+2026-05-21,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.36,GB,5.0456,USD
+2026-05-21,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35980.1275,GB-Mo,9.5959,USD
+2026-05-21,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.3647,GB,3.856,USD
+2026-05-21,Amazon ElastiCache,eu-west-1,NodeUsage,82.3412,Hrs,5.5992,USD
+2026-05-22,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,452.8885,Hrs,43.4773,USD
+2026-05-22,Amazon Simple Storage Service,eu-west-1,TimedStorage,10458.5398,GB-Mo,8.0217,USD
+2026-05-22,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.0948,Hrs,21.5159,USD
+2026-05-22,AWS Lambda,eu-west-1,GB-Seconds,132803.7344,GB-Seconds,2.2134,USD
+2026-05-22,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.8894,GB,5.0056,USD
+2026-05-22,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35753.2808,GB-Mo,9.5354,USD
+2026-05-22,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.4176,GB,3.8605,USD
+2026-05-22,Amazon ElastiCache,eu-west-1,NodeUsage,84.4412,Hrs,5.742,USD
+2026-05-23,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,437.3917,Hrs,41.9896,USD
+2026-05-23,Amazon Simple Storage Service,eu-west-1,TimedStorage,10382.5293,GB-Mo,7.9634,USD
+2026-05-23,Amazon Relational Database Service,eu-west-1,InstanceUsage,185.4574,Hrs,21.3276,USD
+2026-05-23,AWS Lambda,eu-west-1,GB-Seconds,113501.773,GB-Seconds,1.8917,USD
+2026-05-23,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.5353,GB,4.9755,USD
+2026-05-23,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36788.1515,GB-Mo,9.8114,USD
+2026-05-23,AWS Data Transfer,eu-west-1,DataTransfer-Out,36.3824,GB,3.0925,USD
+2026-05-23,Amazon ElastiCache,eu-west-1,NodeUsage,80.9529,Hrs,5.5048,USD
+2026-05-24,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,427.9406,Hrs,41.0823,USD
+2026-05-24,Amazon Simple Storage Service,eu-west-1,TimedStorage,9981.7471,GB-Mo,7.656,USD
+2026-05-24,Amazon Relational Database Service,eu-west-1,InstanceUsage,189.7948,Hrs,21.8264,USD
+2026-05-24,AWS Lambda,eu-west-1,GB-Seconds,107051.7859,GB-Seconds,1.7842,USD
+2026-05-24,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.7459,GB,4.5684,USD
+2026-05-24,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34145.4818,GB-Mo,9.1066,USD
+2026-05-24,AWS Data Transfer,eu-west-1,DataTransfer-Out,41.1835,GB,3.5006,USD
+2026-05-24,Amazon ElastiCache,eu-west-1,NodeUsage,80.4515,Hrs,5.4707,USD
+2026-05-25,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,524.7802,Hrs,50.3789,USD
+2026-05-25,Amazon Simple Storage Service,eu-west-1,TimedStorage,10570.5346,GB-Mo,8.1076,USD
+2026-05-25,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.4078,Hrs,21.5519,USD
+2026-05-25,AWS Lambda,eu-west-1,GB-Seconds,136349.7273,GB-Seconds,2.2725,USD
+2026-05-25,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.8824,GB,5.09,USD
+2026-05-25,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34984.252,GB-Mo,9.3303,USD
+2026-05-25,AWS Data Transfer,eu-west-1,DataTransfer-Out,42.8929,GB,3.6459,USD
+2026-05-25,Amazon ElastiCache,eu-west-1,NodeUsage,77.0338,Hrs,5.2383,USD
+2026-05-26,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,509.8135,Hrs,48.9421,USD
+2026-05-26,Amazon Simple Storage Service,eu-west-1,TimedStorage,10969.2308,GB-Mo,8.4134,USD
+2026-05-26,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.0357,Hrs,21.6241,USD
+2026-05-26,AWS Lambda,eu-west-1,GB-Seconds,123683.7526,GB-Seconds,2.0614,USD
+2026-05-26,Amazon CloudFront,eu-west-1,DataTransfer-Out,60.3012,GB,5.1256,USD
+2026-05-26,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37044.2445,GB-Mo,9.8797,USD
+2026-05-26,AWS Data Transfer,eu-west-1,DataTransfer-Out,42.8329,GB,3.6408,USD
+2026-05-26,Amazon ElastiCache,eu-west-1,NodeUsage,78.6382,Hrs,5.3474,USD
+2026-05-27,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,450.3323,Hrs,43.2319,USD
+2026-05-27,Amazon Simple Storage Service,eu-west-1,TimedStorage,10423.2073,GB-Mo,7.9946,USD
+2026-05-27,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.3078,Hrs,21.0804,USD
+2026-05-27,AWS Lambda,eu-west-1,GB-Seconds,128537.7429,GB-Seconds,2.1423,USD
+2026-05-27,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.5882,GB,4.895,USD
+2026-05-27,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35675.6655,GB-Mo,9.5147,USD
+2026-05-27,AWS Data Transfer,eu-west-1,DataTransfer-Out,48.7012,GB,4.1396,USD
+2026-05-27,Amazon ElastiCache,eu-west-1,NodeUsage,82.35,Hrs,5.5998,USD
+2026-05-28,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,487.2927,Hrs,46.7801,USD
+2026-05-28,Amazon Simple Storage Service,eu-west-1,TimedStorage,10914.0808,GB-Mo,8.3711,USD
+2026-05-28,Amazon Relational Database Service,eu-west-1,InstanceUsage,198.273,Hrs,22.8014,USD
+2026-05-28,AWS Lambda,eu-west-1,GB-Seconds,143681.7126,GB-Seconds,2.3947,USD
+2026-05-28,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.3459,GB,4.7894,USD
+2026-05-28,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37466.0667,GB-Mo,9.9922,USD
+2026-05-28,AWS Data Transfer,eu-west-1,DataTransfer-Out,42.4541,GB,3.6086,USD
+2026-05-28,Amazon ElastiCache,eu-west-1,NodeUsage,82.5765,Hrs,5.6152,USD
+2026-05-29,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,489.4958,Hrs,46.9916,USD
+2026-05-29,Amazon Simple Storage Service,eu-west-1,TimedStorage,10181.4863,GB-Mo,7.8092,USD
+2026-05-29,Amazon Relational Database Service,eu-west-1,InstanceUsage,194.9183,Hrs,22.4156,USD
+2026-05-29,AWS Lambda,eu-west-1,GB-Seconds,114821.7704,GB-Seconds,1.9137,USD
+2026-05-29,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.6353,GB,4.814,USD
+2026-05-29,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35827.1466,GB-Mo,9.5551,USD
+2026-05-29,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.9894,GB,3.9091,USD
+2026-05-29,Amazon ElastiCache,eu-west-1,NodeUsage,82.3882,Hrs,5.6024,USD
+2026-05-30,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,390.0656,Hrs,37.4463,USD
+2026-05-30,Amazon Simple Storage Service,eu-west-1,TimedStorage,11120.339,GB-Mo,8.5293,USD
+2026-05-30,Amazon Relational Database Service,eu-west-1,InstanceUsage,190.9704,Hrs,21.9616,USD
+2026-05-30,AWS Lambda,eu-west-1,GB-Seconds,110795.7784,GB-Seconds,1.8466,USD
+2026-05-30,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.1812,GB,4.6904,USD
+2026-05-30,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35167.2291,GB-Mo,9.3791,USD
+2026-05-30,AWS Data Transfer,eu-west-1,DataTransfer-Out,37.3212,GB,3.1723,USD
+2026-05-30,Amazon ElastiCache,eu-west-1,NodeUsage,79.5985,Hrs,5.4127,USD
+2026-05-31,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,432.7219,Hrs,41.5413,USD
+2026-05-31,Amazon Simple Storage Service,eu-west-1,TimedStorage,10754.7588,GB-Mo,8.2489,USD
+2026-05-31,Amazon Relational Database Service,eu-west-1,InstanceUsage,193.8957,Hrs,22.298,USD
+2026-05-31,AWS Lambda,eu-west-1,GB-Seconds,148595.7028,GB-Seconds,2.4766,USD
+2026-05-31,Amazon CloudFront,eu-west-1,DataTransfer-Out,60.0259,GB,5.1022,USD
+2026-05-31,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36362.2047,GB-Mo,9.6978,USD
+2026-05-31,AWS Data Transfer,eu-west-1,DataTransfer-Out,39.8953,GB,3.3911,USD
+2026-05-31,Amazon ElastiCache,eu-west-1,NodeUsage,84.3779,Hrs,5.7377,USD
+2026-06-01,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,766.1948,Hrs,73.5547,USD
+2026-06-01,Amazon Simple Storage Service,eu-west-1,TimedStorage,11027.249,GB-Mo,8.4579,USD
+2026-06-01,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.9574,Hrs,22.6501,USD
+2026-06-01,AWS Lambda,eu-west-1,GB-Seconds,119375.7612,GB-Seconds,1.9896,USD
+2026-06-01,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.0553,GB,4.8497,USD
+2026-06-01,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35785.5268,GB-Mo,9.544,USD
+2026-06-01,AWS Data Transfer,eu-west-1,DataTransfer-Out,46.02,GB,3.9117,USD
+2026-06-01,Amazon ElastiCache,eu-west-1,NodeUsage,84.8882,Hrs,5.7724,USD
+2026-06-02,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,705.2917,Hrs,67.708,USD
+2026-06-02,Amazon Simple Storage Service,eu-west-1,TimedStorage,10646.4146,GB-Mo,8.1658,USD
+2026-06-02,Amazon Relational Database Service,eu-west-1,InstanceUsage,199.7148,Hrs,22.9672,USD
+2026-06-02,AWS Lambda,eu-west-1,GB-Seconds,129791.7404,GB-Seconds,2.1632,USD
+2026-06-02,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.0365,GB,5.0181,USD
+2026-06-02,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36716.5354,GB-Mo,9.7923,USD
+2026-06-02,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.5941,GB,3.8755,USD
+2026-06-02,Amazon ElastiCache,eu-west-1,NodeUsage,78.4956,Hrs,5.3377,USD
+2026-06-03,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,719.4385,Hrs,69.0661,USD
+2026-06-03,Amazon Simple Storage Service,eu-west-1,TimedStorage,10773.5332,GB-Mo,8.2633,USD
+2026-06-03,Amazon Relational Database Service,eu-west-1,InstanceUsage,190.7078,Hrs,21.9314,USD
+2026-06-03,AWS Lambda,eu-west-1,GB-Seconds,139523.721,GB-Seconds,2.3254,USD
+2026-06-03,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.0659,GB,4.9356,USD
+2026-06-03,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36412.0735,GB-Mo,9.7111,USD
+2026-06-03,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.1024,GB,3.8337,USD
+2026-06-03,Amazon ElastiCache,eu-west-1,NodeUsage,79.4574,Hrs,5.4031,USD
+2026-06-04,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,711.3729,Hrs,68.2918,USD
+2026-06-04,Amazon Simple Storage Service,eu-west-1,TimedStorage,11262.5815,GB-Mo,8.6384,USD
+2026-06-04,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.213,Hrs,21.4145,USD
+2026-06-04,AWS Lambda,eu-west-1,GB-Seconds,125471.7491,GB-Seconds,2.0912,USD
+2026-06-04,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.9388,GB,5.0948,USD
+2026-06-04,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36708.2865,GB-Mo,9.7901,USD
+2026-06-04,AWS Data Transfer,eu-west-1,DataTransfer-Out,42.4176,GB,3.6055,USD
+2026-06-04,Amazon ElastiCache,eu-west-1,NodeUsage,77.7015,Hrs,5.2837,USD
+2026-06-05,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,752.2458,Hrs,72.2156,USD
+2026-06-05,Amazon Simple Storage Service,eu-west-1,TimedStorage,10755.2803,GB-Mo,8.2493,USD
+2026-06-05,Amazon Relational Database Service,eu-west-1,InstanceUsage,185.78,Hrs,21.3647,USD
+2026-06-05,AWS Lambda,eu-west-1,GB-Seconds,121529.7569,GB-Seconds,2.0255,USD
+2026-06-05,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.8518,GB,4.5774,USD
+2026-06-05,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34789.6513,GB-Mo,9.2784,USD
+2026-06-05,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.3494,GB,3.6847,USD
+2026-06-05,Amazon ElastiCache,eu-west-1,NodeUsage,84.1265,Hrs,5.7206,USD
+2026-06-06,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,573.6958,Hrs,55.0748,USD
+2026-06-06,Amazon Simple Storage Service,eu-west-1,TimedStorage,10941.1995,GB-Mo,8.3919,USD
+2026-06-06,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.6148,Hrs,22.6107,USD
+2026-06-06,AWS Lambda,eu-west-1,GB-Seconds,146327.7073,GB-Seconds,2.4388,USD
+2026-06-06,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.8224,GB,4.5749,USD
+2026-06-06,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35234.3457,GB-Mo,9.397,USD
+2026-06-06,AWS Data Transfer,eu-west-1,DataTransfer-Out,38.1859,GB,3.2458,USD
+2026-06-06,Amazon ElastiCache,eu-west-1,NodeUsage,83.5853,Hrs,5.6838,USD
+2026-06-07,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,598.3271,Hrs,57.4394,USD
+2026-06-07,Amazon Simple Storage Service,eu-west-1,TimedStorage,11256.4537,GB-Mo,8.6337,USD
+2026-06-07,Amazon Relational Database Service,eu-west-1,InstanceUsage,194.6017,Hrs,22.3792,USD
+2026-06-07,AWS Lambda,eu-west-1,GB-Seconds,125735.7485,GB-Seconds,2.0956,USD
+2026-06-07,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.96,GB,4.5866,USD
+2026-06-07,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36396.3255,GB-Mo,9.7069,USD
+2026-06-07,AWS Data Transfer,eu-west-1,DataTransfer-Out,36.5859,GB,3.1098,USD
+2026-06-07,Amazon ElastiCache,eu-west-1,NodeUsage,84.8662,Hrs,5.7709,USD
+2026-06-08,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,742.551,Hrs,71.2849,USD
+2026-06-08,Amazon Simple Storage Service,eu-west-1,TimedStorage,10960.4954,GB-Mo,8.4067,USD
+2026-06-08,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.0974,Hrs,21.1712,USD
+2026-06-08,AWS Lambda,eu-west-1,GB-Seconds,128429.7431,GB-Seconds,2.1405,USD
+2026-06-08,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.0765,GB,4.6815,USD
+2026-06-08,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37286.0892,GB-Mo,9.9442,USD
+2026-06-08,AWS Data Transfer,eu-west-1,DataTransfer-Out,50.2282,GB,4.2694,USD
+2026-06-08,Amazon ElastiCache,eu-west-1,NodeUsage,82.0147,Hrs,5.577,USD
+2026-06-09,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,696.1187,Hrs,66.8274,USD
+2026-06-09,Amazon Simple Storage Service,eu-west-1,TimedStorage,10846.0235,GB-Mo,8.3189,USD
+2026-06-09,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.4226,Hrs,21.4386,USD
+2026-06-09,AWS Lambda,eu-west-1,GB-Seconds,156095.6878,GB-Seconds,2.6016,USD
+2026-06-09,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.4141,GB,4.9652,USD
+2026-06-09,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34799.775,GB-Mo,9.2811,USD
+2026-06-09,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.6047,GB,3.7064,USD
+2026-06-09,Amazon ElastiCache,eu-west-1,NodeUsage,80.7809,Hrs,5.4931,USD
+2026-06-10,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,736.2177,Hrs,70.6769,USD
+2026-06-10,Amazon Simple Storage Service,eu-west-1,TimedStorage,11287.8748,GB-Mo,8.6578,USD
+2026-06-10,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.2678,Hrs,21.0758,USD
+2026-06-10,AWS Lambda,eu-west-1,GB-Seconds,154889.6902,GB-Seconds,2.5815,USD
+2026-06-10,Amazon CloudFront,eu-west-1,DataTransfer-Out,52.5247,GB,4.4646,USD
+2026-06-10,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35775.0281,GB-Mo,9.5412,USD
+2026-06-10,AWS Data Transfer,eu-west-1,DataTransfer-Out,51.0082,GB,4.3357,USD
+2026-06-10,Amazon ElastiCache,eu-west-1,NodeUsage,80.3603,Hrs,5.4645,USD
+2026-06-11,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,738.5219,Hrs,70.8981,USD
+2026-06-11,Amazon Simple Storage Service,eu-west-1,TimedStorage,11553.5854,GB-Mo,8.8616,USD
+2026-06-11,Amazon Relational Database Service,eu-west-1,InstanceUsage,190.3,Hrs,21.8845,USD
+2026-06-11,AWS Lambda,eu-west-1,GB-Seconds,157721.6846,GB-Seconds,2.6287,USD
+2026-06-11,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.2424,GB,4.7806,USD
+2026-06-11,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36459.3176,GB-Mo,9.7237,USD
+2026-06-11,AWS Data Transfer,eu-west-1,DataTransfer-Out,46.4341,GB,3.9469,USD
+2026-06-11,Amazon ElastiCache,eu-west-1,NodeUsage,84.0471,Hrs,5.7152,USD
+2026-06-12,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,763.3667,Hrs,73.2832,USD
+2026-06-12,Amazon Simple Storage Service,eu-west-1,TimedStorage,11511.2125,GB-Mo,8.8291,USD
+2026-06-12,Amazon Relational Database Service,eu-west-1,InstanceUsage,182.9139,Hrs,21.0351,USD
+2026-06-12,AWS Lambda,eu-west-1,GB-Seconds,130313.7394,GB-Seconds,2.1719,USD
+2026-06-12,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.1976,GB,4.5218,USD
+2026-06-12,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35764.9044,GB-Mo,9.5385,USD
+2026-06-12,AWS Data Transfer,eu-west-1,DataTransfer-Out,50.4082,GB,4.2847,USD
+2026-06-12,Amazon ElastiCache,eu-west-1,NodeUsage,79.5618,Hrs,5.4102,USD
+2026-06-13,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,647.1365,Hrs,62.1251,USD
+2026-06-13,Amazon Simple Storage Service,eu-west-1,TimedStorage,11548.8918,GB-Mo,8.858,USD
+2026-06-13,Amazon Relational Database Service,eu-west-1,InstanceUsage,197.9704,Hrs,22.7666,USD
+2026-06-13,AWS Lambda,eu-west-1,GB-Seconds,140015.72,GB-Seconds,2.3336,USD
+2026-06-13,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.7812,GB,4.7414,USD
+2026-06-13,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,34906.2617,GB-Mo,9.3095,USD
+2026-06-13,AWS Data Transfer,eu-west-1,DataTransfer-Out,40.8153,GB,3.4693,USD
+2026-06-13,Amazon ElastiCache,eu-west-1,NodeUsage,77.2456,Hrs,5.2527,USD
+2026-06-14,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,594.6313,Hrs,57.0846,USD
+2026-06-14,Amazon Simple Storage Service,eu-west-1,TimedStorage,11896.6102,GB-Mo,9.1247,USD
+2026-06-14,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.3296,Hrs,21.6579,USD
+2026-06-14,AWS Lambda,eu-west-1,GB-Seconds,161501.677,GB-Seconds,2.6917,USD
+2026-06-14,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.1365,GB,4.8566,USD
+2026-06-14,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37706.4117,GB-Mo,10.0563,USD
+2026-06-14,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.3565,GB,3.6853,USD
+2026-06-14,Amazon ElastiCache,eu-west-1,NodeUsage,78.8147,Hrs,5.3594,USD
+2026-06-15,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,689.076,Hrs,66.1513,USD
+2026-06-15,Amazon Simple Storage Service,eu-west-1,TimedStorage,11724.6415,GB-Mo,8.9928,USD
+2026-06-15,Amazon Relational Database Service,eu-west-1,InstanceUsage,189.987,Hrs,21.8485,USD
+2026-06-15,AWS Lambda,eu-west-1,GB-Seconds,144515.711,GB-Seconds,2.4086,USD
+2026-06-15,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.1271,GB,4.6858,USD
+2026-06-15,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36388.4514,GB-Mo,9.7048,USD
+2026-06-15,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.2271,GB,3.6743,USD
+2026-06-15,Amazon ElastiCache,eu-west-1,NodeUsage,82.7882,Hrs,5.6296,USD
+2026-06-16,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,732.6562,Hrs,70.335,USD
+2026-06-16,Amazon Simple Storage Service,eu-west-1,TimedStorage,11302.7379,GB-Mo,8.6692,USD
+2026-06-16,Amazon Relational Database Service,eu-west-1,InstanceUsage,190.7087,Hrs,21.9315,USD
+2026-06-16,AWS Lambda,eu-west-1,GB-Seconds,160547.6789,GB-Seconds,2.6758,USD
+2026-06-16,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.6247,GB,4.9831,USD
+2026-06-16,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37804.6494,GB-Mo,10.0825,USD
+2026-06-16,AWS Data Transfer,eu-west-1,DataTransfer-Out,50.8341,GB,4.3209,USD
+2026-06-16,Amazon ElastiCache,eu-west-1,NodeUsage,78.2265,Hrs,5.3194,USD
+2026-06-17,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,693.7177,Hrs,66.5969,USD
+2026-06-17,Amazon Simple Storage Service,eu-west-1,TimedStorage,11868.7093,GB-Mo,9.1033,USD
+2026-06-17,Amazon Relational Database Service,eu-west-1,InstanceUsage,199.6757,Hrs,22.9627,USD
+2026-06-17,AWS Lambda,eu-west-1,GB-Seconds,154853.6903,GB-Seconds,2.5809,USD
+2026-06-17,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.9565,GB,4.8413,USD
+2026-06-17,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35306.3367,GB-Mo,9.4162,USD
+2026-06-17,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.4718,GB,3.6951,USD
+2026-06-17,Amazon ElastiCache,eu-west-1,NodeUsage,81.8809,Hrs,5.5679,USD
+2026-06-18,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,748.625,Hrs,71.868,USD
+2026-06-18,Amazon Simple Storage Service,eu-west-1,TimedStorage,11813.6897,GB-Mo,9.0611,USD
+2026-06-18,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.7904,Hrs,22.6309,USD
+2026-06-18,AWS Lambda,eu-west-1,GB-Seconds,155471.6891,GB-Seconds,2.5912,USD
+2026-06-18,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.1141,GB,4.9397,USD
+2026-06-18,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37065.9918,GB-Mo,9.8855,USD
+2026-06-18,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.9694,GB,3.7374,USD
+2026-06-18,Amazon ElastiCache,eu-west-1,NodeUsage,77.9485,Hrs,5.3005,USD
+2026-06-19,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,753.4885,Hrs,72.3349,USD
+2026-06-19,Amazon Simple Storage Service,eu-west-1,TimedStorage,11100.7823,GB-Mo,8.5143,USD
+2026-06-19,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.0174,Hrs,21.047,USD
+2026-06-19,AWS Lambda,eu-west-1,GB-Seconds,163937.6721,GB-Seconds,2.7323,USD
+2026-06-19,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.2482,GB,4.7811,USD
+2026-06-19,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36941.1324,GB-Mo,9.8522,USD
+2026-06-19,AWS Data Transfer,eu-west-1,DataTransfer-Out,47.8318,GB,4.0657,USD
+2026-06-19,Amazon ElastiCache,eu-west-1,NodeUsage,83.7485,Hrs,5.6949,USD
+2026-06-20,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,639.5823,Hrs,61.3999,USD
+2026-06-20,Amazon Simple Storage Service,eu-west-1,TimedStorage,12123.9896,GB-Mo,9.2991,USD
+2026-06-20,Amazon Relational Database Service,eu-west-1,InstanceUsage,190.1313,Hrs,21.8651,USD
+2026-06-20,AWS Lambda,eu-west-1,GB-Seconds,153581.6928,GB-Seconds,2.5597,USD
+2026-06-20,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.9471,GB,4.6705,USD
+2026-06-20,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36305.9618,GB-Mo,9.6828,USD
+2026-06-20,AWS Data Transfer,eu-west-1,DataTransfer-Out,41.8118,GB,3.554,USD
+2026-06-20,Amazon ElastiCache,eu-west-1,NodeUsage,83.4059,Hrs,5.6716,USD
+2026-06-21,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,658.4115,Hrs,63.2075,USD
+2026-06-21,Amazon Simple Storage Service,eu-west-1,TimedStorage,11378.618,GB-Mo,8.7274,USD
+2026-06-21,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.7043,Hrs,21.241,USD
+2026-06-21,AWS Lambda,eu-west-1,GB-Seconds,169289.6614,GB-Seconds,2.8215,USD
+2026-06-21,Amazon CloudFront,eu-west-1,DataTransfer-Out,52.7224,GB,4.4814,USD
+2026-06-21,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37358.4552,GB-Mo,9.9635,USD
+2026-06-21,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.1671,GB,3.6692,USD
+2026-06-21,Amazon ElastiCache,eu-west-1,NodeUsage,83.1074,Hrs,5.6513,USD
+2026-06-22,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,770.8323,Hrs,73.9999,USD
+2026-06-22,Amazon Simple Storage Service,eu-west-1,TimedStorage,11964.9283,GB-Mo,9.1771,USD
+2026-06-22,Amazon Relational Database Service,eu-west-1,InstanceUsage,189.7765,Hrs,21.8243,USD
+2026-06-22,AWS Lambda,eu-west-1,GB-Seconds,148523.703,GB-Seconds,2.4754,USD
+2026-06-22,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.6447,GB,5.0698,USD
+2026-06-22,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35992.126,GB-Mo,9.5991,USD
+2026-06-22,AWS Data Transfer,eu-west-1,DataTransfer-Out,47.7706,GB,4.0605,USD
+2026-06-22,Amazon ElastiCache,eu-west-1,NodeUsage,79.7176,Hrs,5.4208,USD
+2026-06-23,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,726.949,Hrs,69.7871,USD
+2026-06-23,Amazon Simple Storage Service,eu-west-1,TimedStorage,12283.3116,GB-Mo,9.4213,USD
+2026-06-23,Amazon Relational Database Service,eu-west-1,InstanceUsage,191.42,Hrs,22.0133,USD
+2026-06-23,AWS Lambda,eu-west-1,GB-Seconds,156065.6879,GB-Seconds,2.6011,USD
+2026-06-23,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.2776,GB,4.6986,USD
+2026-06-23,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35880.015,GB-Mo,9.5692,USD
+2026-06-23,AWS Data Transfer,eu-west-1,DataTransfer-Out,48.1788,GB,4.0952,USD
+2026-06-23,Amazon ElastiCache,eu-west-1,NodeUsage,81.2206,Hrs,5.523,USD
+2026-06-24,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,787.0969,Hrs,75.5613,USD
+2026-06-24,Amazon Simple Storage Service,eu-west-1,TimedStorage,11352.5424,GB-Mo,8.7074,USD
+2026-06-24,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.1104,Hrs,21.0577,USD
+2026-06-24,AWS Lambda,eu-west-1,GB-Seconds,141401.7172,GB-Seconds,2.3567,USD
+2026-06-24,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.0812,GB,4.9369,USD
+2026-06-24,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37043.1196,GB-Mo,9.8794,USD
+2026-06-24,AWS Data Transfer,eu-west-1,DataTransfer-Out,51.2294,GB,4.3545,USD
+2026-06-24,Amazon ElastiCache,eu-west-1,NodeUsage,82.7985,Hrs,5.6303,USD
+2026-06-25,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,732.4104,Hrs,70.3114,USD
+2026-06-25,Amazon Simple Storage Service,eu-west-1,TimedStorage,11348.631,GB-Mo,8.7044,USD
+2026-06-25,Amazon Relational Database Service,eu-west-1,InstanceUsage,200.6574,Hrs,23.0756,USD
+2026-06-25,AWS Lambda,eu-west-1,GB-Seconds,160553.6789,GB-Seconds,2.6759,USD
+2026-06-25,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.6447,GB,4.5598,USD
+2026-06-25,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36943.757,GB-Mo,9.8529,USD
+2026-06-25,AWS Data Transfer,eu-west-1,DataTransfer-Out,50.4529,GB,4.2885,USD
+2026-06-25,Amazon ElastiCache,eu-west-1,NodeUsage,77.2603,Hrs,5.2537,USD
+2026-06-26,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,747.0219,Hrs,71.7141,USD
+2026-06-26,Amazon Simple Storage Service,eu-west-1,TimedStorage,12267.927,GB-Mo,9.4095,USD
+2026-06-26,Amazon Relational Database Service,eu-west-1,InstanceUsage,191.6904,Hrs,22.0444,USD
+2026-06-26,AWS Lambda,eu-west-1,GB-Seconds,152873.6943,GB-Seconds,2.5479,USD
+2026-06-26,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.4094,GB,4.5398,USD
+2026-06-26,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37632.171,GB-Mo,10.0365,USD
+2026-06-26,AWS Data Transfer,eu-west-1,DataTransfer-Out,52.9047,GB,4.4969,USD
+2026-06-26,Amazon ElastiCache,eu-west-1,NodeUsage,83.3676,Hrs,5.669,USD
+2026-06-27,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,645.6958,Hrs,61.9868,USD
+2026-06-27,Amazon Simple Storage Service,eu-west-1,TimedStorage,11410.2999,GB-Mo,8.7517,USD
+2026-06-27,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.1113,Hrs,21.5178,USD
+2026-06-27,AWS Lambda,eu-west-1,GB-Seconds,177287.6454,GB-Seconds,2.9548,USD
+2026-06-27,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.2988,GB,5.0404,USD
+2026-06-27,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37281.2148,GB-Mo,9.9429,USD
+2026-06-27,AWS Data Transfer,eu-west-1,DataTransfer-Out,39.2659,GB,3.3376,USD
+2026-06-27,Amazon ElastiCache,eu-west-1,NodeUsage,80.5647,Hrs,5.4784,USD
+2026-06-28,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,617.6958,Hrs,59.2988,USD
+2026-06-28,Amazon Simple Storage Service,eu-west-1,TimedStorage,12343.9374,GB-Mo,9.4678,USD
+2026-06-28,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.4409,Hrs,22.4757,USD
+2026-06-28,AWS Lambda,eu-west-1,GB-Seconds,194243.6115,GB-Seconds,3.2374,USD
+2026-06-28,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.7553,GB,4.6542,USD
+2026-06-28,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36649.0439,GB-Mo,9.7743,USD
+2026-06-28,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.9529,GB,3.736,USD
+2026-06-28,Amazon ElastiCache,eu-west-1,NodeUsage,84.6603,Hrs,5.7569,USD
+2026-06-29,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,801.4198,Hrs,76.9363,USD
+2026-06-29,Amazon Simple Storage Service,eu-west-1,TimedStorage,12534.2894,GB-Mo,9.6138,USD
+2026-06-29,Amazon Relational Database Service,eu-west-1,InstanceUsage,198.4748,Hrs,22.8246,USD
+2026-06-29,AWS Lambda,eu-west-1,GB-Seconds,173477.653,GB-Seconds,2.8913,USD
+2026-06-29,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.14,GB,4.7719,USD
+2026-06-29,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36230.5962,GB-Mo,9.6627,USD
+2026-06-29,AWS Data Transfer,eu-west-1,DataTransfer-Out,53.4376,GB,4.5422,USD
+2026-06-29,Amazon ElastiCache,eu-west-1,NodeUsage,81.2515,Hrs,5.5251,USD
+2026-06-30,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,735.2458,Hrs,70.5836,USD
+2026-06-30,Amazon Simple Storage Service,eu-west-1,TimedStorage,12357.6271,GB-Mo,9.4783,USD
+2026-06-30,Amazon Relational Database Service,eu-west-1,InstanceUsage,199.4278,Hrs,22.9342,USD
+2026-06-30,AWS Lambda,eu-west-1,GB-Seconds,200573.5989,GB-Seconds,3.3429,USD
+2026-06-30,Amazon CloudFront,eu-west-1,DataTransfer-Out,60.0941,GB,5.108,USD
+2026-06-30,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35098.2377,GB-Mo,9.3607,USD
+2026-06-30,AWS Data Transfer,eu-west-1,DataTransfer-Out,53.2376,GB,4.5252,USD
+2026-06-30,Amazon ElastiCache,eu-west-1,NodeUsage,78.0809,Hrs,5.3095,USD
+2026-07-01,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,487.9531,Hrs,46.8435,USD
+2026-07-01,Amazon Simple Storage Service,eu-west-1,TimedStorage,12084.7458,GB-Mo,9.269,USD
+2026-07-01,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.5913,Hrs,22.608,USD
+2026-07-01,AWS Lambda,eu-west-1,GB-Seconds,155747.6885,GB-Seconds,2.5958,USD
+2026-07-01,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.8953,GB,4.9211,USD
+2026-07-01,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36278.5902,GB-Mo,9.6755,USD
+2026-07-01,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.08,GB,3.8318,USD
+2026-07-01,Amazon ElastiCache,eu-west-1,NodeUsage,81.7662,Hrs,5.5601,USD
+2026-07-02,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,537.1292,Hrs,51.5644,USD
+2026-07-02,Amazon Simple Storage Service,eu-west-1,TimedStorage,12743.1551,GB-Mo,9.774,USD
+2026-07-02,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.787,Hrs,21.2505,USD
+2026-07-02,AWS Lambda,eu-west-1,GB-Seconds,177431.6451,GB-Seconds,2.9572,USD
+2026-07-02,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.0518,GB,4.5094,USD
+2026-07-02,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35770.1537,GB-Mo,9.5399,USD
+2026-07-02,AWS Data Transfer,eu-west-1,DataTransfer-Out,48.8624,GB,4.1533,USD
+2026-07-02,Amazon ElastiCache,eu-west-1,NodeUsage,77.5676,Hrs,5.2746,USD
+2026-07-03,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,511.126,Hrs,49.0681,USD
+2026-07-03,Amazon Simple Storage Service,eu-west-1,TimedStorage,12734.6806,GB-Mo,9.7675,USD
+2026-07-03,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.8313,Hrs,21.6006,USD
+2026-07-03,AWS Lambda,eu-west-1,GB-Seconds,206687.5866,GB-Seconds,3.4448,USD
+2026-07-03,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.5894,GB,4.8951,USD
+2026-07-03,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,38398.5752,GB-Mo,10.2409,USD
+2026-07-03,AWS Data Transfer,eu-west-1,DataTransfer-Out,50.46,GB,4.2891,USD
+2026-07-03,Amazon ElastiCache,eu-west-1,NodeUsage,83.575,Hrs,5.6831,USD
+2026-07-04,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,438.6938,Hrs,42.1146,USD
+2026-07-04,Amazon Simple Storage Service,eu-west-1,TimedStorage,12830.1173,GB-Mo,9.8407,USD
+2026-07-04,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.3939,Hrs,21.4353,USD
+2026-07-04,AWS Lambda,eu-west-1,GB-Seconds,200225.5995,GB-Seconds,3.3371,USD
+2026-07-04,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.3294,GB,4.958,USD
+2026-07-04,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,38559.805,GB-Mo,10.2839,USD
+2026-07-04,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.2812,GB,3.6789,USD
+2026-07-04,Amazon ElastiCache,eu-west-1,NodeUsage,80.0647,Hrs,5.4444,USD
+2026-07-05,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,415.5906,Hrs,39.8967,USD
+2026-07-05,Amazon Simple Storage Service,eu-west-1,TimedStorage,12758.6701,GB-Mo,9.7859,USD
+2026-07-05,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.6817,Hrs,21.6984,USD
+2026-07-05,AWS Lambda,eu-west-1,GB-Seconds,188087.6238,GB-Seconds,3.1348,USD
+2026-07-05,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.14,GB,4.9419,USD
+2026-07-05,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,38263.5921,GB-Mo,10.2049,USD
+2026-07-05,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.3035,GB,3.8508,USD
+2026-07-05,Amazon ElastiCache,eu-west-1,NodeUsage,83.4235,Hrs,5.6728,USD
+2026-07-06,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,562.374,Hrs,53.9879,USD
+2026-07-06,Amazon Simple Storage Service,eu-west-1,TimedStorage,11964.5372,GB-Mo,9.1768,USD
+2026-07-06,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.4739,Hrs,22.4795,USD
+2026-07-06,AWS Lambda,eu-west-1,GB-Seconds,190277.6194,GB-Seconds,3.1713,USD
+2026-07-06,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.0176,GB,4.8465,USD
+2026-07-06,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36717.6603,GB-Mo,9.7926,USD
+2026-07-06,AWS Data Transfer,eu-west-1,DataTransfer-Out,49.9329,GB,4.2443,USD
+2026-07-06,Amazon ElastiCache,eu-west-1,NodeUsage,82.2191,Hrs,5.5909,USD
+2026-07-07,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,571.9156,Hrs,54.9039,USD
+2026-07-07,Amazon Simple Storage Service,eu-west-1,TimedStorage,12712.7771,GB-Mo,9.7507,USD
+2026-07-07,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.7287,Hrs,22.6238,USD
+2026-07-07,AWS Lambda,eu-west-1,GB-Seconds,191507.617,GB-Seconds,3.1918,USD
+2026-07-07,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.3776,GB,4.8771,USD
+2026-07-07,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,38190.8511,GB-Mo,10.1855,USD
+2026-07-07,AWS Data Transfer,eu-west-1,DataTransfer-Out,54.6624,GB,4.6463,USD
+2026-07-07,Amazon ElastiCache,eu-west-1,NodeUsage,79.4618,Hrs,5.4034,USD
+2026-07-08,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,501.7969,Hrs,48.1725,USD
+2026-07-08,Amazon Simple Storage Service,eu-west-1,TimedStorage,12340.678,GB-Mo,9.4653,USD
+2026-07-08,Amazon Relational Database Service,eu-west-1,InstanceUsage,192.6426,Hrs,22.1539,USD
+2026-07-08,AWS Lambda,eu-west-1,GB-Seconds,171083.6578,GB-Seconds,2.8514,USD
+2026-07-08,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.5329,GB,4.7203,USD
+2026-07-08,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37511.4361,GB-Mo,10.0043,USD
+2026-07-08,AWS Data Transfer,eu-west-1,DataTransfer-Out,52.9071,GB,4.4971,USD
+2026-07-08,Amazon ElastiCache,eu-west-1,NodeUsage,82.6338,Hrs,5.6191,USD
+2026-07-09,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,553.6667,Hrs,53.152,USD
+2026-07-09,Amazon Simple Storage Service,eu-west-1,TimedStorage,12923.2073,GB-Mo,9.9121,USD
+2026-07-09,Amazon Relational Database Service,eu-west-1,InstanceUsage,182.6652,Hrs,21.0065,USD
+2026-07-09,AWS Lambda,eu-west-1,GB-Seconds,200453.5991,GB-Seconds,3.3409,USD
+2026-07-09,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.7565,GB,4.5693,USD
+2026-07-09,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35981.6273,GB-Mo,9.5963,USD
+2026-07-09,AWS Data Transfer,eu-west-1,DataTransfer-Out,55.5588,GB,4.7225,USD
+2026-07-09,Amazon ElastiCache,eu-west-1,NodeUsage,82.825,Hrs,5.6321,USD
+2026-07-10,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,560.199,Hrs,53.7791,USD
+2026-07-10,Amazon Simple Storage Service,eu-west-1,TimedStorage,12456.8449,GB-Mo,9.5544,USD
+2026-07-10,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.7652,Hrs,21.248,USD
+2026-07-10,AWS Lambda,eu-west-1,GB-Seconds,181319.6374,GB-Seconds,3.022,USD
+2026-07-10,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.0035,GB,4.9303,USD
+2026-07-10,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,37561.6798,GB-Mo,10.0177,USD
+2026-07-10,AWS Data Transfer,eu-west-1,DataTransfer-Out,51.4741,GB,4.3753,USD
+2026-07-10,Amazon ElastiCache,eu-west-1,NodeUsage,80.6912,Hrs,5.487,USD
+2026-07-11,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,465.7167,Hrs,44.7088,USD
+2026-07-11,Amazon Simple Storage Service,eu-west-1,TimedStorage,12429.8566,GB-Mo,9.5337,USD
+2026-07-11,Amazon Relational Database Service,eu-west-1,InstanceUsage,198.4487,Hrs,22.8216,USD
+2026-07-11,AWS Lambda,eu-west-1,GB-Seconds,189257.6215,GB-Seconds,3.1543,USD
+2026-07-11,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.9765,GB,4.758,USD
+2026-07-11,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35844.7694,GB-Mo,9.5598,USD
+2026-07-11,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.3353,GB,3.6835,USD
+2026-07-11,Amazon ElastiCache,eu-west-1,NodeUsage,82.9779,Hrs,5.6425,USD
+2026-07-12,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,491.4542,Hrs,47.1796,USD
+2026-07-12,Amazon Simple Storage Service,eu-west-1,TimedStorage,12660.3651,GB-Mo,9.7105,USD
+2026-07-12,Amazon Relational Database Service,eu-west-1,InstanceUsage,193.8035,Hrs,22.2874,USD
+2026-07-12,AWS Lambda,eu-west-1,GB-Seconds,205379.5892,GB-Seconds,3.423,USD
+2026-07-12,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.7906,GB,4.8272,USD
+2026-07-12,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,36234.7207,GB-Mo,9.6638,USD
+2026-07-12,AWS Data Transfer,eu-west-1,DataTransfer-Out,41.4447,GB,3.5228,USD
+2026-07-12,Amazon ElastiCache,eu-west-1,NodeUsage,82.4176,Hrs,5.6044,USD
+2026-07-13,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,550.7406,Hrs,52.8711,USD
+2026-07-13,Amazon Simple Storage Service,eu-west-1,TimedStorage,13179.661,GB-Mo,10.1088,USD
+2026-07-13,Amazon Relational Database Service,eu-west-1,InstanceUsage,200.6878,Hrs,23.0791,USD
+2026-07-13,AWS Lambda,eu-west-1,GB-Seconds,214223.5716,GB-Seconds,3.5704,USD
+2026-07-13,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.6741,GB,4.7323,USD
+2026-07-13,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,39210.7237,GB-Mo,10.4575,USD
+2026-07-13,AWS Data Transfer,eu-west-1,DataTransfer-Out,53.9612,GB,4.5867,USD
+2026-07-13,Amazon ElastiCache,eu-west-1,NodeUsage,81.7588,Hrs,5.5596,USD
+2026-07-14,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,580.2365,Hrs,55.7027,USD
+2026-07-14,Amazon Simple Storage Service,eu-west-1,TimedStorage,12982.1382,GB-Mo,9.9573,USD
+2026-07-14,Amazon Relational Database Service,eu-west-1,InstanceUsage,192.66,Hrs,22.1559,USD
+2026-07-14,AWS Lambda,eu-west-1,GB-Seconds,197273.6055,GB-Seconds,3.2879,USD
+2026-07-14,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.0106,GB,4.9309,USD
+2026-07-14,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,35860.8924,GB-Mo,9.5641,USD
+2026-07-14,AWS Data Transfer,eu-west-1,DataTransfer-Out,49.3059,GB,4.191,USD
+2026-07-14,Amazon ElastiCache,eu-west-1,NodeUsage,82.775,Hrs,5.6287,USD
+2026-07-15,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,545.6594,Hrs,52.3833,USD
+2026-07-15,Amazon Simple Storage Service,eu-west-1,TimedStorage,12888.3963,GB-Mo,9.8854,USD
+2026-07-15,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.8539,Hrs,22.6382,USD
+2026-07-15,AWS Lambda,eu-west-1,GB-Seconds,205523.589,GB-Seconds,3.4254,USD
+2026-07-15,Amazon CloudFront,eu-west-1,DataTransfer-Out,52.6894,GB,4.4786,USD
+2026-07-15,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60149.9813,GB-Mo,16.042,USD
+2026-07-15,AWS Data Transfer,eu-west-1,DataTransfer-Out,47.1059,GB,4.004,USD
+2026-07-15,Amazon ElastiCache,eu-west-1,NodeUsage,83.75,Hrs,5.695,USD
+2026-07-16,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,500.1646,Hrs,48.0158,USD
+2026-07-16,Amazon Simple Storage Service,eu-west-1,TimedStorage,13191.1343,GB-Mo,10.1176,USD
+2026-07-16,Amazon Relational Database Service,eu-west-1,InstanceUsage,200.5922,Hrs,23.0681,USD
+2026-07-16,AWS Lambda,eu-west-1,GB-Seconds,193883.6122,GB-Seconds,3.2314,USD
+2026-07-16,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.5718,GB,5.0636,USD
+2026-07-16,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61386.2017,GB-Mo,16.3717,USD
+2026-07-16,AWS Data Transfer,eu-west-1,DataTransfer-Out,47.0647,GB,4.0005,USD
+2026-07-16,Amazon ElastiCache,eu-west-1,NodeUsage,83.1235,Hrs,5.6524,USD
+2026-07-17,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,542.3875,Hrs,52.0692,USD
+2026-07-17,Amazon Simple Storage Service,eu-west-1,TimedStorage,12585.3977,GB-Mo,9.653,USD
+2026-07-17,Amazon Relational Database Service,eu-west-1,InstanceUsage,193.1557,Hrs,22.2129,USD
+2026-07-17,AWS Lambda,eu-west-1,GB-Seconds,196325.6073,GB-Seconds,3.2721,USD
+2026-07-17,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.2082,GB,4.6927,USD
+2026-07-17,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60956.1305,GB-Mo,16.257,USD
+2026-07-17,AWS Data Transfer,eu-west-1,DataTransfer-Out,56.6353,GB,4.814,USD
+2026-07-17,Amazon ElastiCache,eu-west-1,NodeUsage,83.6059,Hrs,5.6852,USD
+2026-07-18,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,441.124,Hrs,42.3479,USD
+2026-07-18,Amazon Simple Storage Service,eu-west-1,TimedStorage,12788.3963,GB-Mo,9.8087,USD
+2026-07-18,Amazon Relational Database Service,eu-west-1,InstanceUsage,197.8043,Hrs,22.7475,USD
+2026-07-18,AWS Lambda,eu-west-1,GB-Seconds,183485.633,GB-Seconds,3.0581,USD
+2026-07-18,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.1059,GB,4.599,USD
+2026-07-18,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,59062.2422,GB-Mo,15.7519,USD
+2026-07-18,AWS Data Transfer,eu-west-1,DataTransfer-Out,47.7153,GB,4.0558,USD
+2026-07-18,Amazon ElastiCache,eu-west-1,NodeUsage,77.0353,Hrs,5.2384,USD
+2026-07-19,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,455.5885,Hrs,43.7365,USD
+2026-07-19,Amazon Simple Storage Service,eu-west-1,TimedStorage,12495.6975,GB-Mo,9.5842,USD
+2026-07-19,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.953,Hrs,21.1546,USD
+2026-07-19,AWS Lambda,eu-west-1,GB-Seconds,209981.58,GB-Seconds,3.4997,USD
+2026-07-19,Amazon CloudFront,eu-west-1,DataTransfer-Out,52.5424,GB,4.4661,USD
+2026-07-19,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62721.7848,GB-Mo,16.7279,USD
+2026-07-19,AWS Data Transfer,eu-west-1,DataTransfer-Out,43.3588,GB,3.6855,USD
+2026-07-19,Amazon ElastiCache,eu-west-1,NodeUsage,83.4456,Hrs,5.6743,USD
+2026-07-20,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,531.8583,Hrs,51.0584,USD
+2026-07-20,Amazon Simple Storage Service,eu-west-1,TimedStorage,12523.3377,GB-Mo,9.6054,USD
+2026-07-20,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.3226,Hrs,22.4621,USD
+2026-07-20,AWS Lambda,eu-west-1,GB-Seconds,246857.5063,GB-Seconds,4.1143,USD
+2026-07-20,Amazon CloudFront,eu-west-1,DataTransfer-Out,52.8471,GB,4.492,USD
+2026-07-20,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62072.366,GB-Mo,16.5547,USD
+2026-07-20,AWS Data Transfer,eu-west-1,DataTransfer-Out,56.0988,GB,4.7684,USD
+2026-07-20,Amazon ElastiCache,eu-west-1,NodeUsage,84.9206,Hrs,5.7746,USD
+2026-07-21,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,535.0771,Hrs,51.3674,USD
+2026-07-21,Amazon Simple Storage Service,eu-west-1,TimedStorage,12719.296,GB-Mo,9.7557,USD
+2026-07-21,Amazon Relational Database Service,eu-west-1,InstanceUsage,185.0061,Hrs,21.2757,USD
+2026-07-21,AWS Lambda,eu-west-1,GB-Seconds,188543.6229,GB-Seconds,3.1424,USD
+2026-07-21,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.86,GB,4.8331,USD
+2026-07-21,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61793.7758,GB-Mo,16.4804,USD
+2026-07-21,AWS Data Transfer,eu-west-1,DataTransfer-Out,53.4859,GB,4.5463,USD
+2026-07-21,Amazon ElastiCache,eu-west-1,NodeUsage,83.5603,Hrs,5.6821,USD
+2026-07-22,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,587.3312,Hrs,56.3838,USD
+2026-07-22,Amazon Simple Storage Service,eu-west-1,TimedStorage,13355.4107,GB-Mo,10.2436,USD
+2026-07-22,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.1296,Hrs,21.4049,USD
+2026-07-22,AWS Lambda,eu-west-1,GB-Seconds,241781.5164,GB-Seconds,4.0297,USD
+2026-07-22,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.0059,GB,4.6755,USD
+2026-07-22,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60835.0206,GB-Mo,16.2247,USD
+2026-07-22,AWS Data Transfer,eu-west-1,DataTransfer-Out,51.9494,GB,4.4157,USD
+2026-07-22,Amazon ElastiCache,eu-west-1,NodeUsage,82.8309,Hrs,5.6325,USD
+2026-07-23,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,586.6021,Hrs,56.3138,USD
+2026-07-23,Amazon Simple Storage Service,eu-west-1,TimedStorage,13082.5293,GB-Mo,10.0343,USD
+2026-07-23,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.4026,Hrs,22.4713,USD
+2026-07-23,AWS Lambda,eu-west-1,GB-Seconds,236153.5277,GB-Seconds,3.9359,USD
+2026-07-23,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.1341,GB,4.6864,USD
+2026-07-23,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,58303.712,GB-Mo,15.5496,USD
+2026-07-23,AWS Data Transfer,eu-west-1,DataTransfer-Out,56.3118,GB,4.7865,USD
+2026-07-23,Amazon ElastiCache,eu-west-1,NodeUsage,82.3559,Hrs,5.6002,USD
+2026-07-24,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,538.024,Hrs,51.6503,USD
+2026-07-24,Amazon Simple Storage Service,eu-west-1,TimedStorage,12943.1551,GB-Mo,9.9274,USD
+2026-07-24,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.5452,Hrs,22.4877,USD
+2026-07-24,AWS Lambda,eu-west-1,GB-Seconds,194357.6113,GB-Seconds,3.2393,USD
+2026-07-24,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.9988,GB,4.5899,USD
+2026-07-24,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62515.5606,GB-Mo,16.6729,USD
+2026-07-24,AWS Data Transfer,eu-west-1,DataTransfer-Out,49.66,GB,4.2211,USD
+2026-07-24,Amazon ElastiCache,eu-west-1,NodeUsage,81.7206,Hrs,5.557,USD
+2026-07-25,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,441.6917,Hrs,42.4024,USD
+2026-07-25,Amazon Simple Storage Service,eu-west-1,TimedStorage,13756.0626,GB-Mo,10.5509,USD
+2026-07-25,Amazon Relational Database Service,eu-west-1,InstanceUsage,191.92,Hrs,22.0708,USD
+2026-07-25,AWS Lambda,eu-west-1,GB-Seconds,194867.6103,GB-Seconds,3.2478,USD
+2026-07-25,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.0071,GB,5.0156,USD
+2026-07-25,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61716.5354,GB-Mo,16.4598,USD
+2026-07-25,AWS Data Transfer,eu-west-1,DataTransfer-Out,46.9082,GB,3.9872,USD
+2026-07-25,Amazon ElastiCache,eu-west-1,NodeUsage,77.2265,Hrs,5.2514,USD
+2026-07-26,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,464.7,Hrs,44.6112,USD
+2026-07-26,Amazon Simple Storage Service,eu-west-1,TimedStorage,13638.8527,GB-Mo,10.461,USD
+2026-07-26,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.453,Hrs,21.4421,USD
+2026-07-26,AWS Lambda,eu-west-1,GB-Seconds,202781.5944,GB-Seconds,3.3797,USD
+2026-07-26,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.2988,GB,5.0404,USD
+2026-07-26,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62519.3101,GB-Mo,16.6739,USD
+2026-07-26,AWS Data Transfer,eu-west-1,DataTransfer-Out,46.4141,GB,3.9452,USD
+2026-07-26,Amazon ElastiCache,eu-west-1,NodeUsage,83.1882,Hrs,5.6568,USD
+2026-07-27,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,565.2677,Hrs,54.2657,USD
+2026-07-27,Amazon Simple Storage Service,eu-west-1,TimedStorage,13612.7771,GB-Mo,10.441,USD
+2026-07-27,Amazon Relational Database Service,eu-west-1,InstanceUsage,198.1504,Hrs,22.7873,USD
+2026-07-27,AWS Lambda,eu-west-1,GB-Seconds,262223.4756,GB-Seconds,4.3704,USD
+2026-07-27,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.1718,GB,5.0296,USD
+2026-07-27,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63240.345,GB-Mo,16.8662,USD
+2026-07-27,AWS Data Transfer,eu-west-1,DataTransfer-Out,54.9976,GB,4.6748,USD
+2026-07-27,Amazon ElastiCache,eu-west-1,NodeUsage,81.2147,Hrs,5.5226,USD
+2026-07-28,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,558.0156,Hrs,53.5695,USD
+2026-07-28,Amazon Simple Storage Service,eu-west-1,TimedStorage,13335.0717,GB-Mo,10.228,USD
+2026-07-28,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.3835,Hrs,21.4341,USD
+2026-07-28,AWS Lambda,eu-west-1,GB-Seconds,234335.5313,GB-Seconds,3.9056,USD
+2026-07-28,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.9118,GB,4.8375,USD
+2026-07-28,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62907.0116,GB-Mo,16.7773,USD
+2026-07-28,AWS Data Transfer,eu-west-1,DataTransfer-Out,53.9259,GB,4.5837,USD
+2026-07-28,Amazon ElastiCache,eu-west-1,NodeUsage,77.7897,Hrs,5.2897,USD
+2026-07-29,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,551.3656,Hrs,52.9311,USD
+2026-07-29,Amazon Simple Storage Service,eu-west-1,TimedStorage,14269.8827,GB-Mo,10.945,USD
+2026-07-29,Amazon Relational Database Service,eu-west-1,InstanceUsage,197.9887,Hrs,22.7687,USD
+2026-07-29,AWS Lambda,eu-west-1,GB-Seconds,236657.5267,GB-Seconds,3.9443,USD
+2026-07-29,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.5647,GB,4.553,USD
+2026-07-29,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60652.0435,GB-Mo,16.1759,USD
+2026-07-29,AWS Data Transfer,eu-west-1,DataTransfer-Out,50.7506,GB,4.3138,USD
+2026-07-29,Amazon ElastiCache,eu-west-1,NodeUsage,84.2632,Hrs,5.7299,USD
+2026-07-30,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,523.9917,Hrs,50.3032,USD
+2026-07-30,Amazon Simple Storage Service,eu-west-1,TimedStorage,13155.0196,GB-Mo,10.0899,USD
+2026-07-30,Amazon Relational Database Service,eu-west-1,InstanceUsage,182.1052,Hrs,20.9421,USD
+2026-07-30,AWS Lambda,eu-west-1,GB-Seconds,250253.4995,GB-Seconds,4.1709,USD
+2026-07-30,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.5318,GB,4.8052,USD
+2026-07-30,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,58581.1774,GB-Mo,15.6236,USD
+2026-07-30,AWS Data Transfer,eu-west-1,DataTransfer-Out,55.1976,GB,4.6918,USD
+2026-07-30,Amazon ElastiCache,eu-west-1,NodeUsage,79.4485,Hrs,5.4025,USD
+2026-07-31,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,593.3635,Hrs,56.9629,USD
+2026-07-31,Amazon Simple Storage Service,eu-west-1,TimedStorage,14187.0926,GB-Mo,10.8815,USD
+2026-07-31,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.4217,Hrs,22.5885,USD
+2026-07-31,AWS Lambda,eu-west-1,GB-Seconds,227429.5451,GB-Seconds,3.7905,USD
+2026-07-31,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.9224,GB,4.8384,USD
+2026-07-31,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60928.7589,GB-Mo,16.2497,USD
+2026-07-31,AWS Data Transfer,eu-west-1,DataTransfer-Out,48.96,GB,4.1616,USD
+2026-07-31,Amazon ElastiCache,eu-west-1,NodeUsage,83.175,Hrs,5.6559,USD
+2026-08-01,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,475.351,Hrs,45.6337,USD
+2026-08-01,Amazon Simple Storage Service,eu-west-1,TimedStorage,13713.1682,GB-Mo,10.518,USD
+2026-08-01,Amazon Relational Database Service,eu-west-1,InstanceUsage,194.1922,Hrs,22.3321,USD
+2026-08-01,AWS Lambda,eu-west-1,GB-Seconds,239033.5219,GB-Seconds,3.9839,USD
+2026-08-01,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.2294,GB,5.0345,USD
+2026-08-01,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60796.7754,GB-Mo,16.2145,USD
+2026-08-01,AWS Data Transfer,eu-west-1,DataTransfer-Out,45.9871,GB,3.9089,USD
+2026-08-01,Amazon ElastiCache,eu-west-1,NodeUsage,83.9574,Hrs,5.7091,USD
+2026-08-02,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,468.0875,Hrs,44.9364,USD
+2026-08-02,Amazon Simple Storage Service,eu-west-1,TimedStorage,13156.193,GB-Mo,10.0908,USD
+2026-08-02,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.6965,Hrs,21.1251,USD
+2026-08-02,AWS Lambda,eu-west-1,GB-Seconds,232931.5341,GB-Seconds,3.8822,USD
+2026-08-02,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.7871,GB,5.0819,USD
+2026-08-02,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,58357.3303,GB-Mo,15.5639,USD
+2026-08-02,AWS Data Transfer,eu-west-1,DataTransfer-Out,46.7012,GB,3.9696,USD
+2026-08-02,Amazon ElastiCache,eu-west-1,NodeUsage,77.5897,Hrs,5.2761,USD
+2026-08-03,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,584.9615,Hrs,56.1563,USD
+2026-08-03,Amazon Simple Storage Service,eu-west-1,TimedStorage,14232.7249,GB-Mo,10.9165,USD
+2026-08-03,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.3513,Hrs,21.6604,USD
+2026-08-03,AWS Lambda,eu-west-1,GB-Seconds,210995.578,GB-Seconds,3.5166,USD
+2026-08-03,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.1318,GB,4.7712,USD
+2026-08-03,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60116.6104,GB-Mo,16.0331,USD
+2026-08-03,AWS Data Transfer,eu-west-1,DataTransfer-Out,52.3294,GB,4.448,USD
+2026-08-03,Amazon ElastiCache,eu-west-1,NodeUsage,84.7559,Hrs,5.7634,USD
+2026-08-04,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,551.901,Hrs,52.9825,USD
+2026-08-04,Amazon Simple Storage Service,eu-west-1,TimedStorage,14464.7979,GB-Mo,11.0945,USD
+2026-08-04,Amazon Relational Database Service,eu-west-1,InstanceUsage,198.5817,Hrs,22.8369,USD
+2026-08-04,AWS Lambda,eu-west-1,GB-Seconds,277145.4457,GB-Seconds,4.6191,USD
+2026-08-04,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.4141,GB,5.0502,USD
+2026-08-04,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,58798.6502,GB-Mo,15.6816,USD
+2026-08-04,AWS Data Transfer,eu-west-1,DataTransfer-Out,55.2482,GB,4.6961,USD
+2026-08-04,Amazon ElastiCache,eu-west-1,NodeUsage,77.9088,Hrs,5.2978,USD
+2026-08-05,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,591.9073,Hrs,56.8231,USD
+2026-08-05,Amazon Simple Storage Service,eu-west-1,TimedStorage,14440.0261,GB-Mo,11.0755,USD
+2026-08-05,Amazon Relational Database Service,eu-west-1,InstanceUsage,185.2922,Hrs,21.3086,USD
+2026-08-05,AWS Lambda,eu-west-1,GB-Seconds,239849.5203,GB-Seconds,3.9975,USD
+2026-08-05,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.9541,GB,5.0961,USD
+2026-08-05,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60620.5474,GB-Mo,16.1675,USD
+2026-08-05,AWS Data Transfer,eu-west-1,DataTransfer-Out,55.1741,GB,4.6898,USD
+2026-08-05,Amazon ElastiCache,eu-west-1,NodeUsage,83.5559,Hrs,5.6818,USD
+2026-08-06,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,568.0302,Hrs,54.5309,USD
+2026-08-06,Amazon Simple Storage Service,eu-west-1,TimedStorage,13423.7288,GB-Mo,10.296,USD
+2026-08-06,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.3652,Hrs,21.432,USD
+2026-08-06,AWS Lambda,eu-west-1,GB-Seconds,241811.5164,GB-Seconds,4.0302,USD
+2026-08-06,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.5012,GB,4.5476,USD
+2026-08-06,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60653.9183,GB-Mo,16.1764,USD
+2026-08-06,AWS Data Transfer,eu-west-1,DataTransfer-Out,51.6106,GB,4.3869,USD
+2026-08-06,Amazon ElastiCache,eu-west-1,NodeUsage,78.8397,Hrs,5.3611,USD
+2026-08-07,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,554.451,Hrs,53.2273,USD
+2026-08-07,Amazon Simple Storage Service,eu-west-1,TimedStorage,13959.8435,GB-Mo,10.7072,USD
+2026-08-07,Amazon Relational Database Service,eu-west-1,InstanceUsage,194.7,Hrs,22.3905,USD
+2026-08-07,AWS Lambda,eu-west-1,GB-Seconds,264611.4708,GB-Seconds,4.4102,USD
+2026-08-07,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.1365,GB,4.6866,USD
+2026-08-07,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62404.5744,GB-Mo,16.6433,USD
+2026-08-07,AWS Data Transfer,eu-west-1,DataTransfer-Out,57.3588,GB,4.8755,USD
+2026-08-07,Amazon ElastiCache,eu-west-1,NodeUsage,78.8809,Hrs,5.3639,USD
+2026-08-08,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,448.5667,Hrs,43.0624,USD
+2026-08-08,Amazon Simple Storage Service,eu-west-1,TimedStorage,14759.322,GB-Mo,11.3204,USD
+2026-08-08,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.9904,Hrs,22.5389,USD
+2026-08-08,AWS Lambda,eu-west-1,GB-Seconds,291317.4174,GB-Seconds,4.8553,USD
+2026-08-08,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.5882,GB,4.725,USD
+2026-08-08,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63912.6359,GB-Mo,17.0455,USD
+2026-08-08,AWS Data Transfer,eu-west-1,DataTransfer-Out,46.8071,GB,3.9786,USD
+2026-08-08,Amazon ElastiCache,eu-west-1,NodeUsage,81.9838,Hrs,5.5749,USD
+2026-08-09,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,474.8292,Hrs,45.5836,USD
+2026-08-09,Amazon Simple Storage Service,eu-west-1,TimedStorage,13620.8605,GB-Mo,10.4472,USD
+2026-08-09,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.5496,Hrs,21.6832,USD
+2026-08-09,AWS Lambda,eu-west-1,GB-Seconds,288509.423,GB-Seconds,4.8085,USD
+2026-08-09,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.6624,GB,4.7313,USD
+2026-08-09,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62382.0772,GB-Mo,16.6373,USD
+2026-08-09,AWS Data Transfer,eu-west-1,DataTransfer-Out,49.0776,GB,4.1716,USD
+2026-08-09,Amazon ElastiCache,eu-west-1,NodeUsage,79.1147,Hrs,5.3798,USD
+2026-08-10,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,581.4573,Hrs,55.8199,USD
+2026-08-10,Amazon Simple Storage Service,eu-west-1,TimedStorage,13929.8566,GB-Mo,10.6842,USD
+2026-08-10,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.7348,Hrs,21.5895,USD
+2026-08-10,AWS Lambda,eu-west-1,GB-Seconds,269519.461,GB-Seconds,4.492,USD
+2026-08-10,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.16,GB,4.5186,USD
+2026-08-10,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61453.6933,GB-Mo,16.3897,USD
+2026-08-10,AWS Data Transfer,eu-west-1,DataTransfer-Out,53.5729,GB,4.5537,USD
+2026-08-10,Amazon ElastiCache,eu-west-1,NodeUsage,81.4397,Hrs,5.5379,USD
+2026-08-11,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,541.4135,Hrs,51.9757,USD
+2026-08-11,Amazon Simple Storage Service,eu-west-1,TimedStorage,13921.9035,GB-Mo,10.6781,USD
+2026-08-11,Amazon Relational Database Service,eu-west-1,InstanceUsage,193.3461,Hrs,22.2348,USD
+2026-08-11,AWS Lambda,eu-west-1,GB-Seconds,249761.5005,GB-Seconds,4.1627,USD
+2026-08-11,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.7094,GB,4.6503,USD
+2026-08-11,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60403.4496,GB-Mo,16.1096,USD
+2026-08-11,AWS Data Transfer,eu-west-1,DataTransfer-Out,60.3388,GB,5.1288,USD
+2026-08-11,Amazon ElastiCache,eu-west-1,NodeUsage,84.2368,Hrs,5.7281,USD
+2026-08-12,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,561.676,Hrs,53.9209,USD
+2026-08-12,Amazon Simple Storage Service,eu-west-1,TimedStorage,13849.8044,GB-Mo,10.6228,USD
+2026-08-12,Amazon Relational Database Service,eu-west-1,InstanceUsage,194.6635,Hrs,22.3863,USD
+2026-08-12,AWS Lambda,eu-west-1,GB-Seconds,231887.5362,GB-Seconds,3.8648,USD
+2026-08-12,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.2282,GB,4.6944,USD
+2026-08-12,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63519.3101,GB-Mo,16.9406,USD
+2026-08-12,AWS Data Transfer,eu-west-1,DataTransfer-Out,51.5047,GB,4.3779,USD
+2026-08-12,Amazon ElastiCache,eu-west-1,NodeUsage,81.3206,Hrs,5.5298,USD
+2026-08-13,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,528.3021,Hrs,50.717,USD
+2026-08-13,Amazon Simple Storage Service,eu-west-1,TimedStorage,14428.4224,GB-Mo,11.0666,USD
+2026-08-13,Amazon Relational Database Service,eu-west-1,InstanceUsage,197.8496,Hrs,22.7527,USD
+2026-08-13,AWS Lambda,eu-west-1,GB-Seconds,299243.4015,GB-Seconds,4.9874,USD
+2026-08-13,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.1976,GB,4.6918,USD
+2026-08-13,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60845.1444,GB-Mo,16.2274,USD
+2026-08-13,AWS Data Transfer,eu-west-1,DataTransfer-Out,54.7224,GB,4.6514,USD
+2026-08-13,Amazon ElastiCache,eu-west-1,NodeUsage,77.0956,Hrs,5.2425,USD
+2026-08-14,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,604.374,Hrs,58.0199,USD
+2026-08-14,Amazon Simple Storage Service,eu-west-1,TimedStorage,14045.8931,GB-Mo,10.7732,USD
+2026-08-14,Amazon Relational Database Service,eu-west-1,InstanceUsage,199.3791,Hrs,22.9286,USD
+2026-08-14,AWS Lambda,eu-west-1,GB-Seconds,273515.453,GB-Seconds,4.5586,USD
+2026-08-14,Amazon CloudFront,eu-west-1,DataTransfer-Out,60.2553,GB,5.1217,USD
+2026-08-14,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63880.7649,GB-Mo,17.037,USD
+2026-08-14,AWS Data Transfer,eu-west-1,DataTransfer-Out,61.3482,GB,5.2146,USD
+2026-08-14,Amazon ElastiCache,eu-west-1,NodeUsage,82.4897,Hrs,5.6093,USD
+2026-08-15,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,500.9719,Hrs,48.0933,USD
+2026-08-15,Amazon Simple Storage Service,eu-west-1,TimedStorage,15087.0926,GB-Mo,11.5718,USD
+2026-08-15,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.7948,Hrs,21.4814,USD
+2026-08-15,AWS Lambda,eu-west-1,GB-Seconds,267557.4649,GB-Seconds,4.4593,USD
+2026-08-15,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.8988,GB,5.0914,USD
+2026-08-15,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61304.8369,GB-Mo,16.35,USD
+2026-08-15,AWS Data Transfer,eu-west-1,DataTransfer-Out,44.4494,GB,3.7782,USD
+2026-08-15,Amazon ElastiCache,eu-west-1,NodeUsage,81.4118,Hrs,5.536,USD
+2026-08-16,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,459.5688,Hrs,44.1186,USD
+2026-08-16,Amazon Simple Storage Service,eu-west-1,TimedStorage,14452.2816,GB-Mo,11.0849,USD
+2026-08-16,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.1661,Hrs,21.5241,USD
+2026-08-16,AWS Lambda,eu-west-1,GB-Seconds,270575.4588,GB-Seconds,4.5096,USD
+2026-08-16,Amazon CloudFront,eu-west-1,DataTransfer-Out,60.0553,GB,5.1047,USD
+2026-08-16,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60699.6625,GB-Mo,16.1886,USD
+2026-08-16,AWS Data Transfer,eu-west-1,DataTransfer-Out,48.4612,GB,4.1192,USD
+2026-08-16,Amazon ElastiCache,eu-west-1,NodeUsage,81.7294,Hrs,5.5576,USD
+2026-08-17,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,610.1073,Hrs,58.5703,USD
+2026-08-17,Amazon Simple Storage Service,eu-west-1,TimedStorage,14031.03,GB-Mo,10.7618,USD
+2026-08-17,Amazon Relational Database Service,eu-west-1,InstanceUsage,192.0652,Hrs,22.0875,USD
+2026-08-17,AWS Lambda,eu-west-1,GB-Seconds,326615.3468,GB-Seconds,5.4436,USD
+2026-08-17,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.9906,GB,4.8442,USD
+2026-08-17,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61378.3277,GB-Mo,16.3696,USD
+2026-08-17,AWS Data Transfer,eu-west-1,DataTransfer-Out,61.8318,GB,5.2557,USD
+2026-08-17,Amazon ElastiCache,eu-west-1,NodeUsage,78.5338,Hrs,5.3403,USD
+2026-08-18,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,549.7292,Hrs,52.774,USD
+2026-08-18,Amazon Simple Storage Service,eu-west-1,TimedStorage,15400.0,GB-Mo,11.8118,USD
+2026-08-18,Amazon Relational Database Service,eu-west-1,InstanceUsage,192.3174,Hrs,22.1165,USD
+2026-08-18,AWS Lambda,eu-west-1,GB-Seconds,288095.4238,GB-Seconds,4.8016,USD
+2026-08-18,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.0282,GB,4.6774,USD
+2026-08-18,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61439.0701,GB-Mo,16.3858,USD
+2026-08-18,AWS Data Transfer,eu-west-1,DataTransfer-Out,59.2871,GB,5.0394,USD
+2026-08-18,Amazon ElastiCache,eu-west-1,NodeUsage,81.7912,Hrs,5.5618,USD
+2026-08-19,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,582.6469,Hrs,55.9341,USD
+2026-08-19,Amazon Simple Storage Service,eu-west-1,TimedStorage,15453.1943,GB-Mo,11.8526,USD
+2026-08-19,Amazon Relational Database Service,eu-west-1,InstanceUsage,193.2296,Hrs,22.2214,USD
+2026-08-19,AWS Lambda,eu-west-1,GB-Seconds,279437.4411,GB-Seconds,4.6573,USD
+2026-08-19,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.0906,GB,5.0227,USD
+2026-08-19,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,59217.0979,GB-Mo,15.7932,USD
+2026-08-19,AWS Data Transfer,eu-west-1,DataTransfer-Out,57.5259,GB,4.8897,USD
+2026-08-19,Amazon ElastiCache,eu-west-1,NodeUsage,77.1338,Hrs,5.2451,USD
+2026-08-20,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,613.1698,Hrs,58.8643,USD
+2026-08-20,Amazon Simple Storage Service,eu-west-1,TimedStorage,14945.3716,GB-Mo,11.4631,USD
+2026-08-20,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.3261,Hrs,21.4275,USD
+2026-08-20,AWS Lambda,eu-west-1,GB-Seconds,260459.4791,GB-Seconds,4.341,USD
+2026-08-20,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.2541,GB,4.6116,USD
+2026-08-20,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,64545.1819,GB-Mo,17.2142,USD
+2026-08-20,AWS Data Transfer,eu-west-1,DataTransfer-Out,51.6976,GB,4.3943,USD
+2026-08-20,Amazon ElastiCache,eu-west-1,NodeUsage,80.4368,Hrs,5.4697,USD
+2026-08-21,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,559.1979,Hrs,53.683,USD
+2026-08-21,Amazon Simple Storage Service,eu-west-1,TimedStorage,14546.9361,GB-Mo,11.1575,USD
+2026-08-21,Amazon Relational Database Service,eu-west-1,InstanceUsage,194.6548,Hrs,22.3853,USD
+2026-08-21,AWS Lambda,eu-west-1,GB-Seconds,260867.4783,GB-Seconds,4.3478,USD
+2026-08-21,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.2059,GB,4.7775,USD
+2026-08-21,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63084.3645,GB-Mo,16.8246,USD
+2026-08-21,AWS Data Transfer,eu-west-1,DataTransfer-Out,53.6694,GB,4.5619,USD
+2026-08-21,Amazon ElastiCache,eu-west-1,NodeUsage,78.9515,Hrs,5.3687,USD
+2026-08-22,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,481.7135,Hrs,46.2445,USD
+2026-08-22,Amazon Simple Storage Service,eu-west-1,TimedStorage,14598.4355,GB-Mo,11.197,USD
+2026-08-22,Amazon Relational Database Service,eu-west-1,InstanceUsage,189.6609,Hrs,21.811,USD
+2026-08-22,AWS Lambda,eu-west-1,GB-Seconds,294887.4102,GB-Seconds,4.9148,USD
+2026-08-22,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.0529,GB,4.7645,USD
+2026-08-22,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62094.4882,GB-Mo,16.5606,USD
+2026-08-22,AWS Data Transfer,eu-west-1,DataTransfer-Out,51.9694,GB,4.4174,USD
+2026-08-22,Amazon ElastiCache,eu-west-1,NodeUsage,84.8044,Hrs,5.7667,USD
+2026-08-23,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,502.6854,Hrs,48.2578,USD
+2026-08-23,Amazon Simple Storage Service,eu-west-1,TimedStorage,14895.176,GB-Mo,11.4246,USD
+2026-08-23,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.8078,Hrs,21.7129,USD
+2026-08-23,AWS Lambda,eu-west-1,GB-Seconds,275147.4497,GB-Seconds,4.5858,USD
+2026-08-23,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.6459,GB,4.8999,USD
+2026-08-23,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,64292.0885,GB-Mo,17.1467,USD
+2026-08-23,AWS Data Transfer,eu-west-1,DataTransfer-Out,52.7976,GB,4.4878,USD
+2026-08-23,Amazon ElastiCache,eu-west-1,NodeUsage,82.0324,Hrs,5.5782,USD
+2026-08-24,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,621.4073,Hrs,59.6551,USD
+2026-08-24,Amazon Simple Storage Service,eu-west-1,TimedStorage,15383.0508,GB-Mo,11.7988,USD
+2026-08-24,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.1887,Hrs,21.4117,USD
+2026-08-24,AWS Lambda,eu-west-1,GB-Seconds,311099.3778,GB-Seconds,5.185,USD
+2026-08-24,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.0247,GB,4.5921,USD
+2026-08-24,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62144.7319,GB-Mo,16.574,USD
+2026-08-24,AWS Data Transfer,eu-west-1,DataTransfer-Out,63.6471,GB,5.41,USD
+2026-08-24,Amazon ElastiCache,eu-west-1,NodeUsage,79.8985,Hrs,5.4331,USD
+2026-08-25,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,540.9667,Hrs,51.9328,USD
+2026-08-25,Amazon Simple Storage Service,eu-west-1,TimedStorage,14722.2947,GB-Mo,11.292,USD
+2026-08-25,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.2443,Hrs,21.0731,USD
+2026-08-25,AWS Lambda,eu-west-1,GB-Seconds,307943.3841,GB-Seconds,5.1324,USD
+2026-08-25,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.24,GB,4.5254,USD
+2026-08-25,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63986.1267,GB-Mo,17.0651,USD
+2026-08-25,AWS Data Transfer,eu-west-1,DataTransfer-Out,54.2824,GB,4.614,USD
+2026-08-25,Amazon ElastiCache,eu-west-1,NodeUsage,78.7676,Hrs,5.3562,USD
+2026-08-26,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,602.0615,Hrs,57.7979,USD
+2026-08-26,Amazon Simple Storage Service,eu-west-1,TimedStorage,14592.0469,GB-Mo,11.1921,USD
+2026-08-26,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.6296,Hrs,22.4974,USD
+2026-08-26,AWS Lambda,eu-west-1,GB-Seconds,300173.3997,GB-Seconds,5.0029,USD
+2026-08-26,Amazon CloudFront,eu-west-1,DataTransfer-Out,52.5235,GB,4.4645,USD
+2026-08-26,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,65444.6944,GB-Mo,17.4541,USD
+2026-08-26,AWS Data Transfer,eu-west-1,DataTransfer-Out,64.3012,GB,5.4656,USD
+2026-08-26,Amazon ElastiCache,eu-west-1,NodeUsage,83.3662,Hrs,5.6689,USD
+2026-08-27,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,626.3771,Hrs,60.1322,USD
+2026-08-27,Amazon Simple Storage Service,eu-west-1,TimedStorage,14695.0456,GB-Mo,11.2711,USD
+2026-08-27,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.6,Hrs,22.609,USD
+2026-08-27,AWS Lambda,eu-west-1,GB-Seconds,333431.3331,GB-Seconds,5.5572,USD
+2026-08-27,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.4894,GB,4.8016,USD
+2026-08-27,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,64984.252,GB-Mo,17.3313,USD
+2026-08-27,AWS Data Transfer,eu-west-1,DataTransfer-Out,64.4835,GB,5.4811,USD
+2026-08-27,Amazon ElastiCache,eu-west-1,NodeUsage,84.1809,Hrs,5.7243,USD
+2026-08-28,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,603.126,Hrs,57.9001,USD
+2026-08-28,Amazon Simple Storage Service,eu-west-1,TimedStorage,15111.4733,GB-Mo,11.5905,USD
+2026-08-28,Amazon Relational Database Service,eu-west-1,InstanceUsage,189.8704,Hrs,21.8351,USD
+2026-08-28,AWS Lambda,eu-west-1,GB-Seconds,297263.4055,GB-Seconds,4.9544,USD
+2026-08-28,Amazon CloudFront,eu-west-1,DataTransfer-Out,52.6741,GB,4.4773,USD
+2026-08-28,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63425.1969,GB-Mo,16.9155,USD
+2026-08-28,AWS Data Transfer,eu-west-1,DataTransfer-Out,61.7282,GB,5.2469,USD
+2026-08-28,Amazon ElastiCache,eu-west-1,NodeUsage,84.0397,Hrs,5.7147,USD
+2026-08-29,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,515.575,Hrs,49.4952,USD
+2026-08-29,Amazon Simple Storage Service,eu-west-1,TimedStorage,14878.8787,GB-Mo,11.4121,USD
+2026-08-29,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.3357,Hrs,21.1986,USD
+2026-08-29,AWS Lambda,eu-west-1,GB-Seconds,290015.42,GB-Seconds,4.8336,USD
+2026-08-29,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.7224,GB,4.8214,USD
+2026-08-29,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63453.3183,GB-Mo,16.923,USD
+2026-08-29,AWS Data Transfer,eu-west-1,DataTransfer-Out,50.3729,GB,4.2817,USD
+2026-08-29,Amazon ElastiCache,eu-west-1,NodeUsage,84.7456,Hrs,5.7627,USD
+2026-08-30,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,499.8,Hrs,47.9808,USD
+2026-08-30,Amazon Simple Storage Service,eu-west-1,TimedStorage,15522.9465,GB-Mo,11.9061,USD
+2026-08-30,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.6261,Hrs,21.692,USD
+2026-08-30,AWS Lambda,eu-west-1,GB-Seconds,315545.3689,GB-Seconds,5.2591,USD
+2026-08-30,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.7388,GB,4.6528,USD
+2026-08-30,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60783.2771,GB-Mo,16.2109,USD
+2026-08-30,AWS Data Transfer,eu-west-1,DataTransfer-Out,53.6635,GB,4.5614,USD
+2026-08-30,Amazon ElastiCache,eu-west-1,NodeUsage,80.5191,Hrs,5.4753,USD
+2026-08-31,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,631.6083,Hrs,60.6344,USD
+2026-08-31,Amazon Simple Storage Service,eu-west-1,TimedStorage,14953.1943,GB-Mo,11.4691,USD
+2026-08-31,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.1043,Hrs,22.552,USD
+2026-08-31,AWS Lambda,eu-west-1,GB-Seconds,350999.298,GB-Seconds,5.85,USD
+2026-08-31,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.6482,GB,5.0701,USD
+2026-08-31,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,59806.5242,GB-Mo,15.9504,USD
+2026-08-31,AWS Data Transfer,eu-west-1,DataTransfer-Out,54.2376,GB,4.6102,USD
+2026-08-31,Amazon ElastiCache,eu-west-1,NodeUsage,77.1662,Hrs,5.2473,USD
+2026-09-01,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,549.5802,Hrs,52.7597,USD
+2026-09-01,Amazon Simple Storage Service,eu-west-1,TimedStorage,14914.3416,GB-Mo,11.4393,USD
+2026-09-01,Amazon Relational Database Service,eu-west-1,InstanceUsage,182.9913,Hrs,21.044,USD
+2026-09-01,AWS Lambda,eu-west-1,GB-Seconds,304847.3903,GB-Seconds,5.0808,USD
+2026-09-01,Amazon CloudFront,eu-west-1,DataTransfer-Out,52.5824,GB,4.4695,USD
+2026-09-01,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60432.6959,GB-Mo,16.1174,USD
+2026-09-01,AWS Data Transfer,eu-west-1,DataTransfer-Out,57.8388,GB,4.9163,USD
+2026-09-01,Amazon ElastiCache,eu-west-1,NodeUsage,81.5941,Hrs,5.5484,USD
+2026-09-02,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,641.3865,Hrs,61.5731,USD
+2026-09-02,Amazon Simple Storage Service,eu-west-1,TimedStorage,15995.5671,GB-Mo,12.2686,USD
+2026-09-02,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.7696,Hrs,21.5935,USD
+2026-09-02,AWS Lambda,eu-west-1,GB-Seconds,303821.3924,GB-Seconds,5.0637,USD
+2026-09-02,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.8094,GB,4.6588,USD
+2026-09-02,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60539.1826,GB-Mo,16.1458,USD
+2026-09-02,AWS Data Transfer,eu-west-1,DataTransfer-Out,61.1153,GB,5.1948,USD
+2026-09-02,Amazon ElastiCache,eu-west-1,NodeUsage,81.3191,Hrs,5.5297,USD
+2026-09-03,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,637.8396,Hrs,61.2326,USD
+2026-09-03,Amazon Simple Storage Service,eu-west-1,TimedStorage,15981.7471,GB-Mo,12.258,USD
+2026-09-03,Amazon Relational Database Service,eu-west-1,InstanceUsage,190.2591,Hrs,21.8798,USD
+2026-09-03,AWS Lambda,eu-west-1,GB-Seconds,324137.3517,GB-Seconds,5.4023,USD
+2026-09-03,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.6494,GB,4.5602,USD
+2026-09-03,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63590.9261,GB-Mo,16.9597,USD
+2026-09-03,AWS Data Transfer,eu-west-1,DataTransfer-Out,63.1141,GB,5.3647,USD
+2026-09-03,Amazon ElastiCache,eu-west-1,NodeUsage,79.3897,Hrs,5.3985,USD
+2026-09-04,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,626.7531,Hrs,60.1683,USD
+2026-09-04,Amazon Simple Storage Service,eu-west-1,TimedStorage,15009.3872,GB-Mo,11.5122,USD
+2026-09-04,Amazon Relational Database Service,eu-west-1,InstanceUsage,193.4383,Hrs,22.2454,USD
+2026-09-04,AWS Lambda,eu-west-1,GB-Seconds,363263.2735,GB-Seconds,6.0544,USD
+2026-09-04,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.5341,GB,4.8904,USD
+2026-09-04,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,64890.5137,GB-Mo,17.3063,USD
+2026-09-04,AWS Data Transfer,eu-west-1,DataTransfer-Out,54.8329,GB,4.6608,USD
+2026-09-04,Amazon ElastiCache,eu-west-1,NodeUsage,81.4279,Hrs,5.5371,USD
+2026-09-05,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,498.624,Hrs,47.8679,USD
+2026-09-05,Amazon Simple Storage Service,eu-west-1,TimedStorage,15394.6545,GB-Mo,11.8077,USD
+2026-09-05,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.5026,Hrs,21.4478,USD
+2026-09-05,AWS Lambda,eu-west-1,GB-Seconds,307691.3846,GB-Seconds,5.1282,USD
+2026-09-05,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.9082,GB,4.7522,USD
+2026-09-05,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,64310.4612,GB-Mo,17.1516,USD
+2026-09-05,AWS Data Transfer,eu-west-1,DataTransfer-Out,50.0682,GB,4.2558,USD
+2026-09-05,Amazon ElastiCache,eu-west-1,NodeUsage,83.5,Hrs,5.678,USD
+2026-09-06,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,503.2073,Hrs,48.3079,USD
+2026-09-06,Amazon Simple Storage Service,eu-west-1,TimedStorage,15365.0587,GB-Mo,11.785,USD
+2026-09-06,Amazon Relational Database Service,eu-west-1,InstanceUsage,190.8104,Hrs,21.9432,USD
+2026-09-06,AWS Lambda,eu-west-1,GB-Seconds,343703.3126,GB-Seconds,5.7284,USD
+2026-09-06,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.8129,GB,4.6591,USD
+2026-09-06,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62639.2951,GB-Mo,16.7059,USD
+2026-09-06,AWS Data Transfer,eu-west-1,DataTransfer-Out,55.4918,GB,4.7168,USD
+2026-09-06,Amazon ElastiCache,eu-west-1,NodeUsage,77.1529,Hrs,5.2464,USD
+2026-09-07,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,577.5323,Hrs,55.4431,USD
+2026-09-07,Amazon Simple Storage Service,eu-west-1,TimedStorage,15378.8787,GB-Mo,11.7956,USD
+2026-09-07,Amazon Relational Database Service,eu-west-1,InstanceUsage,193.2157,Hrs,22.2198,USD
+2026-09-07,AWS Lambda,eu-west-1,GB-Seconds,367325.2653,GB-Seconds,6.1221,USD
+2026-09-07,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.6271,GB,5.0683,USD
+2026-09-07,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61351.3311,GB-Mo,16.3624,USD
+2026-09-07,AWS Data Transfer,eu-west-1,DataTransfer-Out,59.4235,GB,5.051,USD
+2026-09-07,Amazon ElastiCache,eu-west-1,NodeUsage,84.8603,Hrs,5.7705,USD
+2026-09-08,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,562.7927,Hrs,54.0281,USD
+2026-09-08,Amazon Simple Storage Service,eu-west-1,TimedStorage,16258.279,GB-Mo,12.4701,USD
+2026-09-08,Amazon Relational Database Service,eu-west-1,InstanceUsage,200.3957,Hrs,23.0455,USD
+2026-09-08,AWS Lambda,eu-west-1,GB-Seconds,350711.2986,GB-Seconds,5.8452,USD
+2026-09-08,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.3212,GB,4.7873,USD
+2026-09-08,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60884.8894,GB-Mo,16.238,USD
+2026-09-08,AWS Data Transfer,eu-west-1,DataTransfer-Out,62.8282,GB,5.3404,USD
+2026-09-08,Amazon ElastiCache,eu-west-1,NodeUsage,80.1044,Hrs,5.4471,USD
+2026-09-09,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,623.1146,Hrs,59.819,USD
+2026-09-09,Amazon Simple Storage Service,eu-west-1,TimedStorage,16249.6741,GB-Mo,12.4635,USD
+2026-09-09,Amazon Relational Database Service,eu-west-1,InstanceUsage,183.2522,Hrs,21.074,USD
+2026-09-09,AWS Lambda,eu-west-1,GB-Seconds,329531.3409,GB-Seconds,5.4922,USD
+2026-09-09,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.7918,GB,4.5723,USD
+2026-09-09,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,65371.5786,GB-Mo,17.4346,USD
+2026-09-09,AWS Data Transfer,eu-west-1,DataTransfer-Out,65.1718,GB,5.5396,USD
+2026-09-09,Amazon ElastiCache,eu-west-1,NodeUsage,81.5074,Hrs,5.5425,USD
+2026-09-10,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,623.5031,Hrs,59.8563,USD
+2026-09-10,Amazon Simple Storage Service,eu-west-1,TimedStorage,16697.3924,GB-Mo,12.8069,USD
+2026-09-10,Amazon Relational Database Service,eu-west-1,InstanceUsage,200.2896,Hrs,23.0333,USD
+2026-09-10,AWS Lambda,eu-west-1,GB-Seconds,312005.376,GB-Seconds,5.2001,USD
+2026-09-10,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.9894,GB,4.9291,USD
+2026-09-10,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,65908.8864,GB-Mo,17.5779,USD
+2026-09-10,AWS Data Transfer,eu-west-1,DataTransfer-Out,66.5847,GB,5.6597,USD
+2026-09-10,Amazon ElastiCache,eu-west-1,NodeUsage,80.1897,Hrs,5.4529,USD
+2026-09-11,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,613.9396,Hrs,58.9382,USD
+2026-09-11,Amazon Simple Storage Service,eu-west-1,TimedStorage,16181.3559,GB-Mo,12.4111,USD
+2026-09-11,Amazon Relational Database Service,eu-west-1,InstanceUsage,197.7478,Hrs,22.741,USD
+2026-09-11,AWS Lambda,eu-west-1,GB-Seconds,385349.2293,GB-Seconds,6.4225,USD
+2026-09-11,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.2871,GB,4.8694,USD
+2026-09-11,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63518.1852,GB-Mo,16.9403,USD
+2026-09-11,AWS Data Transfer,eu-west-1,DataTransfer-Out,56.2047,GB,4.7774,USD
+2026-09-11,Amazon ElastiCache,eu-west-1,NodeUsage,82.9412,Hrs,5.64,USD
+2026-09-12,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,545.1104,Hrs,52.3306,USD
+2026-09-12,Amazon Simple Storage Service,eu-west-1,TimedStorage,15904.4329,GB-Mo,12.1987,USD
+2026-09-12,Amazon Relational Database Service,eu-west-1,InstanceUsage,188.3357,Hrs,21.6586,USD
+2026-09-12,AWS Lambda,eu-west-1,GB-Seconds,328637.3427,GB-Seconds,5.4773,USD
+2026-09-12,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.5753,GB,5.0639,USD
+2026-09-12,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,60800.5249,GB-Mo,16.2155,USD
+2026-09-12,AWS Data Transfer,eu-west-1,DataTransfer-Out,54.0106,GB,4.5909,USD
+2026-09-12,Amazon ElastiCache,eu-west-1,NodeUsage,82.6765,Hrs,5.622,USD
+2026-09-13,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,523.2094,Hrs,50.2281,USD
+2026-09-13,Amazon Simple Storage Service,eu-west-1,TimedStorage,16919.9478,GB-Mo,12.9776,USD
+2026-09-13,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.8765,Hrs,21.6058,USD
+2026-09-13,AWS Lambda,eu-west-1,GB-Seconds,366965.2661,GB-Seconds,6.1161,USD
+2026-09-13,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.2871,GB,4.5294,USD
+2026-09-13,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62999.2501,GB-Mo,16.8019,USD
+2026-09-13,AWS Data Transfer,eu-west-1,DataTransfer-Out,50.9424,GB,4.3301,USD
+2026-09-13,Amazon ElastiCache,eu-west-1,NodeUsage,77.8309,Hrs,5.2925,USD
+2026-09-14,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,567.1635,Hrs,54.4477,USD
+2026-09-14,Amazon Simple Storage Service,eu-west-1,TimedStorage,16181.4863,GB-Mo,12.4112,USD
+2026-09-14,Amazon Relational Database Service,eu-west-1,InstanceUsage,199.5704,Hrs,22.9506,USD
+2026-09-14,AWS Lambda,eu-west-1,GB-Seconds,329423.3412,GB-Seconds,5.4904,USD
+2026-09-14,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.7612,GB,4.6547,USD
+2026-09-14,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,64025.4968,GB-Mo,17.0756,USD
+2026-09-14,AWS Data Transfer,eu-west-1,DataTransfer-Out,58.6012,GB,4.9811,USD
+2026-09-14,Amazon ElastiCache,eu-west-1,NodeUsage,82.3059,Hrs,5.5968,USD
+2026-09-15,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,654.2833,Hrs,62.8112,USD
+2026-09-15,Amazon Simple Storage Service,eu-west-1,TimedStorage,16261.7992,GB-Mo,12.4728,USD
+2026-09-15,Amazon Relational Database Service,eu-west-1,InstanceUsage,197.8217,Hrs,22.7495,USD
+2026-09-15,AWS Lambda,eu-west-1,GB-Seconds,337631.3247,GB-Seconds,5.6272,USD
+2026-09-15,Amazon CloudFront,eu-west-1,DataTransfer-Out,53.3871,GB,4.5379,USD
+2026-09-15,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,65744.282,GB-Mo,17.534,USD
+2026-09-15,AWS Data Transfer,eu-west-1,DataTransfer-Out,64.7412,GB,5.503,USD
+2026-09-15,Amazon ElastiCache,eu-west-1,NodeUsage,79.7279,Hrs,5.4215,USD
+2026-09-16,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,589.5271,Hrs,56.5946,USD
+2026-09-16,Amazon Simple Storage Service,eu-west-1,TimedStorage,15853.5854,GB-Mo,12.1597,USD
+2026-09-16,Amazon Relational Database Service,eu-west-1,InstanceUsage,191.2817,Hrs,21.9974,USD
+2026-09-16,AWS Lambda,eu-west-1,GB-Seconds,362867.2743,GB-Seconds,6.0478,USD
+2026-09-16,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.6094,GB,4.7268,USD
+2026-09-16,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,66398.5752,GB-Mo,17.7085,USD
+2026-09-16,AWS Data Transfer,eu-west-1,DataTransfer-Out,58.8047,GB,4.9984,USD
+2026-09-16,Amazon ElastiCache,eu-west-1,NodeUsage,82.7074,Hrs,5.6241,USD
+2026-09-17,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,605.4594,Hrs,58.1241,USD
+2026-09-17,Amazon Simple Storage Service,eu-west-1,TimedStorage,17309.9087,GB-Mo,13.2767,USD
+2026-09-17,Amazon Relational Database Service,eu-west-1,InstanceUsage,192.5504,Hrs,22.1433,USD
+2026-09-17,AWS Lambda,eu-west-1,GB-Seconds,384497.231,GB-Seconds,6.4083,USD
+2026-09-17,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.8494,GB,5.0872,USD
+2026-09-17,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61594.3007,GB-Mo,16.4272,USD
+2026-09-17,AWS Data Transfer,eu-west-1,DataTransfer-Out,68.0329,GB,5.7828,USD
+2026-09-17,Amazon ElastiCache,eu-west-1,NodeUsage,81.2676,Hrs,5.5262,USD
+2026-09-18,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,653.4302,Hrs,62.7293,USD
+2026-09-18,Amazon Simple Storage Service,eu-west-1,TimedStorage,16805.6063,GB-Mo,12.8899,USD
+2026-09-18,Amazon Relational Database Service,eu-west-1,InstanceUsage,193.9626,Hrs,22.3057,USD
+2026-09-18,AWS Lambda,eu-west-1,GB-Seconds,442349.1153,GB-Seconds,7.3725,USD
+2026-09-18,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.2047,GB,4.7774,USD
+2026-09-18,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63502.8121,GB-Mo,16.9362,USD
+2026-09-18,AWS Data Transfer,eu-west-1,DataTransfer-Out,59.0541,GB,5.0196,USD
+2026-09-18,Amazon ElastiCache,eu-west-1,NodeUsage,77.0338,Hrs,5.2383,USD
+2026-09-19,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,542.2906,Hrs,52.0599,USD
+2026-09-19,Amazon Simple Storage Service,eu-west-1,TimedStorage,16402.2164,GB-Mo,12.5805,USD
+2026-09-19,Amazon Relational Database Service,eu-west-1,InstanceUsage,198.3583,Hrs,22.8112,USD
+2026-09-19,AWS Lambda,eu-west-1,GB-Seconds,399671.2007,GB-Seconds,6.6612,USD
+2026-09-19,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.8118,GB,4.659,USD
+2026-09-19,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,66064.4919,GB-Mo,17.6194,USD
+2026-09-19,AWS Data Transfer,eu-west-1,DataTransfer-Out,49.02,GB,4.1667,USD
+2026-09-19,Amazon ElastiCache,eu-west-1,NodeUsage,82.5868,Hrs,5.6159,USD
+2026-09-20,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,511.7927,Hrs,49.1321,USD
+2026-09-20,Amazon Simple Storage Service,eu-west-1,TimedStorage,16934.0287,GB-Mo,12.9884,USD
+2026-09-20,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.56,Hrs,21.5694,USD
+2026-09-20,AWS Lambda,eu-west-1,GB-Seconds,386087.2278,GB-Seconds,6.4348,USD
+2026-09-20,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.6941,GB,5.074,USD
+2026-09-20,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61580.4274,GB-Mo,16.4235,USD
+2026-09-20,AWS Data Transfer,eu-west-1,DataTransfer-Out,57.7329,GB,4.9073,USD
+2026-09-20,Amazon ElastiCache,eu-west-1,NodeUsage,77.9515,Hrs,5.3007,USD
+2026-09-21,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,653.8917,Hrs,62.7736,USD
+2026-09-21,Amazon Simple Storage Service,eu-west-1,TimedStorage,17384.2243,GB-Mo,13.3337,USD
+2026-09-21,Amazon Relational Database Service,eu-west-1,InstanceUsage,187.4652,Hrs,21.5585,USD
+2026-09-21,AWS Lambda,eu-west-1,GB-Seconds,431135.1377,GB-Seconds,7.1856,USD
+2026-09-21,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.2412,GB,4.8655,USD
+2026-09-21,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,65501.3123,GB-Mo,17.4692,USD
+2026-09-21,AWS Data Transfer,eu-west-1,DataTransfer-Out,65.5176,GB,5.569,USD
+2026-09-21,Amazon ElastiCache,eu-west-1,NodeUsage,82.9471,Hrs,5.6404,USD
+2026-09-22,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,592.2927,Hrs,56.8601,USD
+2026-09-22,Amazon Simple Storage Service,eu-west-1,TimedStorage,16420.4694,GB-Mo,12.5945,USD
+2026-09-22,Amazon Relational Database Service,eu-west-1,InstanceUsage,186.4896,Hrs,21.4463,USD
+2026-09-22,AWS Lambda,eu-west-1,GB-Seconds,457043.0859,GB-Seconds,7.6174,USD
+2026-09-22,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.7635,GB,4.8249,USD
+2026-09-22,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63400.075,GB-Mo,16.9088,USD
+2026-09-22,AWS Data Transfer,eu-west-1,DataTransfer-Out,60.0212,GB,5.1018,USD
+2026-09-22,Amazon ElastiCache,eu-west-1,NodeUsage,82.1324,Hrs,5.585,USD
+2026-09-23,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,580.8396,Hrs,55.7606,USD
+2026-09-23,Amazon Simple Storage Service,eu-west-1,TimedStorage,17820.8605,GB-Mo,13.6686,USD
+2026-09-23,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.3496,Hrs,22.5802,USD
+2026-09-23,AWS Lambda,eu-west-1,GB-Seconds,452093.0958,GB-Seconds,7.5349,USD
+2026-09-23,Amazon CloudFront,eu-west-1,DataTransfer-Out,55.54,GB,4.7209,USD
+2026-09-23,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,61503.5621,GB-Mo,16.403,USD
+2026-09-23,AWS Data Transfer,eu-west-1,DataTransfer-Out,67.8459,GB,5.7669,USD
+2026-09-23,Amazon ElastiCache,eu-west-1,NodeUsage,81.4485,Hrs,5.5385,USD
+2026-09-24,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,595.7385,Hrs,57.1909,USD
+2026-09-24,Amazon Simple Storage Service,eu-west-1,TimedStorage,16383.9635,GB-Mo,12.5665,USD
+2026-09-24,Amazon Relational Database Service,eu-west-1,InstanceUsage,181.8687,Hrs,20.9149,USD
+2026-09-24,AWS Lambda,eu-west-1,GB-Seconds,412187.1756,GB-Seconds,6.8698,USD
+2026-09-24,Amazon CloudFront,eu-west-1,DataTransfer-Out,54.7353,GB,4.6525,USD
+2026-09-24,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,67520.06,GB-Mo,18.0076,USD
+2026-09-24,AWS Data Transfer,eu-west-1,DataTransfer-Out,62.1247,GB,5.2806,USD
+2026-09-24,Amazon ElastiCache,eu-west-1,NodeUsage,82.6926,Hrs,5.6231,USD
+2026-09-25,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,644.3771,Hrs,61.8602,USD
+2026-09-25,Amazon Simple Storage Service,eu-west-1,TimedStorage,16911.2125,GB-Mo,12.9709,USD
+2026-09-25,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.0704,Hrs,21.1681,USD
+2026-09-25,AWS Lambda,eu-west-1,GB-Seconds,364349.2713,GB-Seconds,6.0725,USD
+2026-09-25,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.9718,GB,4.9276,USD
+2026-09-25,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,66985.7518,GB-Mo,17.8651,USD
+2026-09-25,AWS Data Transfer,eu-west-1,DataTransfer-Out,59.6012,GB,5.0661,USD
+2026-09-25,Amazon ElastiCache,eu-west-1,NodeUsage,78.7632,Hrs,5.3559,USD
+2026-09-26,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,518.9667,Hrs,49.8208,USD
+2026-09-26,Amazon Simple Storage Service,eu-west-1,TimedStorage,16591.9166,GB-Mo,12.726,USD
+2026-09-26,Amazon Relational Database Service,eu-west-1,InstanceUsage,196.0078,Hrs,22.5409,USD
+2026-09-26,AWS Lambda,eu-west-1,GB-Seconds,411035.1779,GB-Seconds,6.8506,USD
+2026-09-26,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.1459,GB,4.9424,USD
+2026-09-26,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,66783.652,GB-Mo,17.8112,USD
+2026-09-26,AWS Data Transfer,eu-west-1,DataTransfer-Out,54.7929,GB,4.6574,USD
+2026-09-26,Amazon ElastiCache,eu-west-1,NodeUsage,80.3985,Hrs,5.4671,USD
+2026-09-27,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,507.7865,Hrs,48.7475,USD
+2026-09-27,Amazon Simple Storage Service,eu-west-1,TimedStorage,16741.8514,GB-Mo,12.841,USD
+2026-09-27,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.0113,Hrs,22.4263,USD
+2026-09-27,AWS Lambda,eu-west-1,GB-Seconds,432731.1345,GB-Seconds,7.2122,USD
+2026-09-27,Amazon CloudFront,eu-west-1,DataTransfer-Out,58.0976,GB,4.9383,USD
+2026-09-27,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62984.252,GB-Mo,16.7979,USD
+2026-09-27,AWS Data Transfer,eu-west-1,DataTransfer-Out,52.2494,GB,4.4412,USD
+2026-09-27,Amazon ElastiCache,eu-west-1,NodeUsage,79.3103,Hrs,5.3931,USD
+2026-09-28,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,673.6719,Hrs,64.6725,USD
+2026-09-28,Amazon Simple Storage Service,eu-west-1,TimedStorage,17723.9896,GB-Mo,13.5943,USD
+2026-09-28,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.0783,Hrs,22.434,USD
+2026-09-28,AWS Lambda,eu-west-1,GB-Seconds,435461.1291,GB-Seconds,7.2577,USD
+2026-09-28,Amazon CloudFront,eu-west-1,DataTransfer-Out,57.4376,GB,4.8822,USD
+2026-09-28,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,63421.8223,GB-Mo,16.9146,USD
+2026-09-28,AWS Data Transfer,eu-west-1,DataTransfer-Out,69.9824,GB,5.9485,USD
+2026-09-28,Amazon ElastiCache,eu-west-1,NodeUsage,81.3809,Hrs,5.5339,USD
+2026-09-29,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,641.7906,Hrs,61.6119,USD
+2026-09-29,Amazon Simple Storage Service,eu-west-1,TimedStorage,18179.0091,GB-Mo,13.9433,USD
+2026-09-29,Amazon Relational Database Service,eu-west-1,InstanceUsage,184.2852,Hrs,21.1928,USD
+2026-09-29,AWS Lambda,eu-west-1,GB-Seconds,481349.0373,GB-Seconds,8.0225,USD
+2026-09-29,Amazon CloudFront,eu-west-1,DataTransfer-Out,59.7212,GB,5.0763,USD
+2026-09-29,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62682.4147,GB-Mo,16.7174,USD
+2026-09-29,AWS Data Transfer,eu-west-1,DataTransfer-Out,58.7412,GB,4.993,USD
+2026-09-29,Amazon ElastiCache,eu-west-1,NodeUsage,84.7441,Hrs,5.7626,USD
+2026-09-30,Amazon Elastic Compute Cloud - Compute,eu-west-1,BoxUsage,643.4312,Hrs,61.7694,USD
+2026-09-30,Amazon Simple Storage Service,eu-west-1,TimedStorage,17014.472,GB-Mo,13.0501,USD
+2026-09-30,Amazon Relational Database Service,eu-west-1,InstanceUsage,195.9957,Hrs,22.5395,USD
+2026-09-30,AWS Lambda,eu-west-1,GB-Seconds,505048.9899,GB-Seconds,8.4175,USD
+2026-09-30,Amazon CloudFront,eu-west-1,DataTransfer-Out,56.0141,GB,4.7612,USD
+2026-09-30,Amazon Elastic Block Store,eu-west-1,EBS:VolumeUsage,62640.4199,GB-Mo,16.7062,USD
+2026-09-30,AWS Data Transfer,eu-west-1,DataTransfer-Out,63.4071,GB,5.3896,USD
+2026-09-30,Amazon ElastiCache,eu-west-1,NodeUsage,84.7132,Hrs,5.7605,USD
