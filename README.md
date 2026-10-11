@@ -1,60 +1,68 @@
-\# CloudSavings
+# CloudSavings
 
+**Cloud cost optimization as a service — Result-as-a-Service (RaaS) model.**
 
+CloudSavings is a local-first web application that helps companies
+identify potential AWS cost savings, measure the results of approved
+optimizations, and simulate a percentage-of-savings fee model.
 
-Cloud Cost Optimization as a Service (RaaS) — MVP.
+> **Status: early MVP.** This is not a production service. It runs
+> entirely on your machine, uses synthetic demonstration data by
+> default, never connects to AWS, and never modifies any cloud
+> resource.
 
+![CloudSavings dashboard](docs/screenshot-dashboard.png)
 
+## What it does
 
-CloudSavings is a local-first web application that helps companies identify
+- **Cost dashboard** — total spend, monthly trends, breakdown by AWS
+  service, month-over-month changes.
+- **CSV import** — load your own AWS Cost Explorer export (or use the
+  bundled sample). Strict validation, no silent acceptance of bad data.
+- **Recommendations** — five transparent rules surface cost anomalies,
+  step changes, concentration, daily outliers, and storage review
+  candidates. Every recommendation lists the evidence required before
+  acting and the risks involved.
+- **Savings measurement** — distinguishes four very different things
+  that most tools conflate:
+    - **Potential** savings (estimates from the rules)
+    - **Observed** savings (a real cost drop, not necessarily caused
+      by us)
+    - **Verified** savings (attributable to an approved intervention,
+      capped at the customer's declared expectation)
+    - **Eligible for billing** (the subset of verified that matches
+      the contract)
+- **RaaS fee simulator** — an *illustrative* percentage-of-savings
+  calculation. No payment, no invoice.
+- **Reports** — a downloadable Markdown document and a flat CSV
+  summary.
 
-potential AWS cost savings, measure the results of approved optimizations,
+## What it deliberately does **not** do
 
-and simulate a percentage-of-savings fee model.
+- It does **not** connect to your AWS account. All input is a CSV file
+  you export yourself.
+- It does **not** modify any cloud resource. No write access, no
+  automatic actions.
+- It does **not** claim that any resource is unused or wasted based on
+  cost data alone. Recommendations are signals, not findings.
+- It does **not** conflate estimated savings with verified savings.
+- It does **not** generate invoices, process payments, or handle
+  taxes.
 
+## Quickstart
 
+### Requirements
 
-> Status: \*\*early development\*\* — Phase 1 (environment + repository).
+- Windows, macOS, or Linux
+- Python 3.12 (3.11 works too; 3.13+ untested)
+- Git
 
-> Nothing here is production-ready yet.
+### 5 commands
 
-
-
-\## Principles
-
-
-
-\- Zero-budget during development.
-
-\- Local execution, synthetic data only.
-
-\- No paid APIs, no credit card, no AWS resources created.
-
-\- Estimated savings and verified savings are always clearly distinguished.
-
-\- Never promise savings that have not been demonstrated.
-
-
-
-\## Tech stack (planned)
-
-
-
-\- Python 3.11+
-
-\- Streamlit (UI)
-
-\- Pandas (data)
-
-\- Plotly (charts)
-
-\- SQLite (local persistence, later)
-
-\- Pytest (tests)
-
-
-
-\## Project structure
-
-
-
+```powershell
+git clone https://github.com/alacherif10/cloudsavings.git
+cd cloudsavings
+py -3.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1     # Windows PowerShell
+python -m pip install -r requirements.txt
+streamlit run app.py
