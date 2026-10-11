@@ -254,9 +254,9 @@ def _attribute_verified_saving(
     total_verified = 0.0
 
     for iv in interventions:
-        before = _monthly_cost_for_service(baseline, iv.service)
-        after = _monthly_cost_for_service(after, iv.service)
-        drop = before - after
+        before_cost = _monthly_cost_for_service(baseline, iv.service)
+        after_cost = _monthly_cost_for_service(after, iv.service)
+        drop = before_cost - after_cost
 
         if drop <= 0:
             notes.append(
