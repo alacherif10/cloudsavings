@@ -186,6 +186,7 @@ def _section_recommendations(recommendations: Iterable[Recommendation]) -> str:
         lines.append("")
         lines.append(f"- **Service**: `{_escape_pipes(rec.service)}`")
         lines.append(f"- **Category**: `{rec.category}`")
+        lines.append(f"- **Rule id**: `{rec.id}`")
         lines.append(f"- **Confidence**: {rec.confidence}")
         lines.append(
             f"- **Estimated potential saving**: "
