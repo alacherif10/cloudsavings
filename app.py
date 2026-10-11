@@ -1,7 +1,12 @@
 """CloudSavings — Streamlit dashboard.
 
-This is the entry point of the local MVP. It loads the synthetic demo
-dataset (data/demo_costs.csv) and renders the cost dashboard.
+This is the entry point of the local MVP. It supports two data
+sources:
+
+    - The bundled synthetic demo dataset (data/demo_costs.csv),
+      loaded by default. Clearly labelled as simulated.
+    - A user-uploaded CSV file, following the format documented in
+      docs/csv_format.md. Always previewed before being applied.
 
 Run locally with:
 
@@ -13,6 +18,7 @@ Design rules:
       This file only orchestrates display.
     - No network calls, no AWS, no paid services.
     - Synthetic data is clearly labelled at the top of every page.
+    - Uploaded files are never written to disk.
 """
 from __future__ import annotations
 
@@ -29,7 +35,7 @@ from src.cost_analysis import (
     service_breakdown,
     summary_stats,
 )
-from src.csv_import import import_csv_from_bytes
+from src.csv_import import ImportResult, import_csv_from_bytes, preview_rows
 
 # ---- Configuration --------------------------------------------------------
 
@@ -42,13 +48,17 @@ st.set_page_config(
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 DEMO_DATA_PATH = PROJECT_ROOT / "data" / "demo_costs.csv"
+SAMPLE_DATA_PATH = PROJECT_ROOT / "data" / "sample_costs.csv"
+
+MAX_ERRORS_DISPLAYED = 100
+MAX_PREVIEW_ROWS = 20
 
 
-# ---- Data loading (cached) ------------------------------------------------
+# ---- Demo data (cached) ---------------------------------------------------
 
 @st.cache_data(show_spinner="Loading demo data...")
 def _load_demo_data() -> pd.DataFrame:
-    """Read the synthetic demo CSV through our own import pipeline.
+    """Read the bundled synthetic demo CSV through our own pipeline.
 
     Reusing the exact same code path as a real upload means that what
     we see in the demo is what a user would see with a real file.
@@ -56,8 +66,6 @@ def _load_demo_data() -> pd.DataFrame:
     data = DEMO_DATA_PATH.read_bytes()
     result = import_csv_from_bytes(data, "demo_costs.csv")
     if not result.is_success or result.df is None:
-        # The bundled demo file is our responsibility — if it fails,
-        # we want the developer to see why, not the end user.
         raise RuntimeError(
             f"Failed to load bundled demo data: "
             f"{result.fatal_error or [str(e) for e in result.validation.errors]}"
@@ -65,7 +73,99 @@ def _load_demo_data() -> pd.DataFrame:
     return result.df
 
 
-# ---- Layout helpers -------------------------------------------------------
+# ---- Session state --------------------------------------------------------
+
+def _init_session_state() -> None:
+    """Initialise keys we use to track the active data source.
+
+    `active_name` is the filename of the confirmed upload, or None when
+    the dashboard is showing demo data. `uploader_key` is a counter we
+    bump to force Streamlit to reset the file uploader widget.
+    """
+    if "active_name" not in st.session_state:
+        st.session_state.active_name = None
+    if "uploader_key" not in st.session_state:
+        st.session_state.uploader_key = 0
+
+
+# ---- Sidebar --------------------------------------------------------------
+
+def _render_sidebar_upload() -> tuple[bytes | None, str | None]:
+    """Render the file uploader and reset button in the sidebar.
+
+    Returns (bytes, filename) if a file is currently selected,
+    otherwise (None, None).
+    """
+    with st.sidebar:
+        st.header("Data source")
+        st.caption("Demo dataset is loaded by default.")
+
+        uploaded = st.file_uploader(
+            "Upload your own AWS cost CSV",
+            type=["csv"],
+            key=f"uploader_{st.session_state.uploader_key}",
+            help="Required format: see docs/csv_format.md",
+        )
+
+        on_demo = st.session_state.active_name is None
+
+        if st.button(
+            "↩️ Back to demo data",
+            disabled=on_demo,
+            use_container_width=True,
+        ):
+            st.session_state.active_name = None
+            st.session_state.uploader_key += 1
+            st.rerun()
+
+        if SAMPLE_DATA_PATH.exists():
+            st.download_button(
+                "📥 Download sample CSV",
+                data=SAMPLE_DATA_PATH.read_bytes(),
+                file_name="sample_costs.csv",
+                mime="text/csv",
+                use_container_width=True,
+                help="A minimal valid file you can use to test the upload.",
+            )
+
+    if uploaded is None:
+        return None, None
+    return uploaded.getvalue(), uploaded.name
+
+
+def _render_sidebar_info(stats: dict[str, object], source_name: str) -> None:
+    with st.sidebar:
+        st.divider()
+        st.header("Current source")
+        st.markdown(f"`{source_name}`")
+
+        st.header("Coverage")
+        st.markdown(
+            f"- **Services**: {stats['num_services']}\n"
+            f"- **Days**: {stats['num_days']}\n"
+            f"- **From**: {stats['period_start']}\n"
+            f"- **To**: {stats['period_end']}"
+        )
+
+        st.divider()
+        st.header("Roadmap")
+        st.markdown(
+            "- ✅ Cost dashboard\n"
+            "- ✅ CSV upload\n"
+            "- ⬜ Recommendations\n"
+            "- ⬜ Savings measurement\n"
+            "- ⬜ RaaS fee simulator\n"
+            "- ⬜ PDF/CSV reports"
+        )
+
+        st.divider()
+        st.caption(
+            "Local MVP. No AWS account connected. "
+            "No data leaves this machine."
+        )
+
+
+# ---- Banners --------------------------------------------------------------
 
 def _render_synthetic_banner() -> None:
     st.warning(
@@ -76,6 +176,113 @@ def _render_synthetic_banner() -> None:
         icon="⚠️",
     )
 
+
+def _render_uploaded_banner(source_name: str, num_rows: int) -> None:
+    st.success(
+        f"**UPLOADED DATA** — Showing figures computed from "
+        f"`{source_name}` ({num_rows:,} rows). "
+        f"No data has left this machine.",
+        icon="✅",
+    )
+
+
+# ---- Upload preview and errors --------------------------------------------
+
+def _render_import_errors(result: ImportResult, filename: str) -> None:
+    st.error(f"### Could not import `{filename}`")
+
+    if result.fatal_error:
+        st.error(result.fatal_error)
+        st.info(
+            "Nothing was imported. Fix the file and try again. "
+            "See `docs/csv_format.md` for the required format, "
+            "or download a valid sample from the sidebar."
+        )
+        return
+
+    errors = result.validation.errors
+    st.warning(
+        f"**{len(errors)} problem(s) found.** "
+        f"The file was not imported — no partial data was applied. "
+        f"Fix the issues below and re-upload."
+    )
+
+    shown = errors[:MAX_ERRORS_DISPLAYED]
+    rows = [
+        {
+            "Row": e.row,
+            "Column": e.column,
+            "Message": e.message,
+            "Value": e.value,
+        }
+        for e in shown
+    ]
+    st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+
+    if len(errors) > MAX_ERRORS_DISPLAYED:
+        st.caption(
+            f"Showing the first {MAX_ERRORS_DISPLAYED} of {len(errors)} "
+            f"errors. Fix these and re-upload to see the rest."
+        )
+
+    st.info(
+        "Download a valid sample from the sidebar to compare formats."
+    )
+
+
+def _render_upload_preview(result: ImportResult, filename: str) -> None:
+    assert result.df is not None
+    df = result.df
+
+    st.subheader("Preview of uploaded file")
+    st.caption(
+        f"File: `{filename}` — {len(df):,} rows, "
+        f"{df['usage_date'].min().date()} to "
+        f"{df['usage_date'].max().date()}"
+    )
+
+    try:
+        preview_stats = summary_stats(df)
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("Total cost", f"${preview_stats['total_cost']:,.2f}")
+        c2.metric("Services", f"{preview_stats['num_services']}")
+        c3.metric("Days", f"{preview_stats['num_days']}")
+        mean_monthly = preview_stats["mean_monthly_cost"]
+        c4.metric(
+            "Mean / month",
+            f"${mean_monthly:,.2f}" if mean_monthly is not None else "—",
+        )
+    except ValueError:
+        # Non-standard file that passed validation but has no dates to
+        # summarise — rare, but we don't want to break the preview.
+        pass
+
+    st.markdown(f"**First {MAX_PREVIEW_ROWS} rows:**")
+    st.dataframe(
+        preview_rows(df, max_rows=MAX_PREVIEW_ROWS),
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    st.divider()
+    c1, c2 = st.columns([1, 3])
+    with c1:
+        if st.button(
+            "✅ Use this data",
+            type="primary",
+            use_container_width=True,
+        ):
+            st.session_state.active_name = filename
+            st.rerun()
+    with c2:
+        st.caption(
+            "Nothing has been applied yet. "
+            "Click **Use this data** to load it into the dashboard, "
+            "or upload a different file."
+        )
+
+
+# ---- Dashboard renderers --------------------------------------------------
 
 def _render_header() -> None:
     st.title("💰 CloudSavings")
@@ -222,46 +429,6 @@ def _render_mom_table(df: pd.DataFrame) -> None:
     st.dataframe(display, use_container_width=True, hide_index=True)
 
 
-def _render_sidebar(stats: dict[str, object]) -> None:
-    with st.sidebar:
-        st.header("Data source")
-        st.markdown(
-            "**Synthetic demonstration dataset**  \n"
-            "`data/demo_costs.csv`"
-        )
-        st.markdown(
-            "This dataset is generated by "
-            "`scripts/generate_demo_data.py` with a fixed seed. "
-            "It is **not** real AWS cost data."
-        )
-
-        st.divider()
-        st.header("Coverage")
-        st.markdown(
-            f"- **Services**: {stats['num_services']}\n"
-            f"- **Days**: {stats['num_days']}\n"
-            f"- **From**: {stats['period_start']}\n"
-            f"- **To**: {stats['period_end']}"
-        )
-
-        st.divider()
-        st.header("Roadmap")
-        st.markdown(
-            "- ✅ Cost dashboard (this screen)\n"
-            "- ⬜ CSV upload\n"
-            "- ⬜ Recommendations\n"
-            "- ⬜ Savings measurement\n"
-            "- ⬜ RaaS fee simulator\n"
-            "- ⬜ PDF/CSV reports"
-        )
-
-        st.divider()
-        st.caption(
-            "Local MVP. No AWS account connected. "
-            "No data leaves this machine."
-        )
-
-
 def _render_footer() -> None:
     st.divider()
     st.caption(
@@ -273,21 +440,48 @@ def _render_footer() -> None:
 # ---- Main ------------------------------------------------------------------
 
 def main() -> None:
+    _init_session_state()
     _render_header()
-    _render_synthetic_banner()
 
-    try:
+    # Sidebar: uploader (always rendered first so the widget is visible
+    # before we decide what to do with its content).
+    file_bytes, filename = _render_sidebar_upload()
+
+    # Decide which dataset to use for the rest of the page.
+    if file_bytes is None:
+        # No file selected → demo mode. Any previously confirmed upload
+        # is discarded so the demo is always the fallback.
+        st.session_state.active_name = None
         df = _load_demo_data()
-    except RuntimeError as exc:
-        st.error(
-            "The bundled demo dataset could not be loaded. "
-            "This is a developer issue, not a user issue. "
-            f"Details: {exc}"
-        )
-        st.stop()
+        source_name = "Demo dataset (synthetic)"
+        is_synthetic = True
+    else:
+        result = import_csv_from_bytes(file_bytes, filename)
+
+        if not result.is_success:
+            _render_import_errors(result, filename)
+            st.stop()
+
+        if st.session_state.active_name != filename:
+            # Fresh upload, not yet confirmed → show preview only.
+            _render_upload_preview(result, filename)
+            st.stop()
+
+        # Confirmed upload → use it.
+        assert result.df is not None
+        df = result.df
+        source_name = filename
+        is_synthetic = False
+
+    # Everything below is the dashboard proper.
+    if is_synthetic:
+        _render_synthetic_banner()
+    else:
+        _render_uploaded_banner(source_name, len(df))
 
     stats = summary_stats(df)
-    _render_sidebar(stats)
+    _render_sidebar_info(stats, source_name)
+
     _render_kpi_row(stats)
 
     st.divider()
